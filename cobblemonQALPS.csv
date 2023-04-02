@@ -1,217 +1,217 @@
 No.,Pokemon,Biome,Excluded,Time,Weather,Context,Preset,Requirements,Bucket,Weight,Lv. Min,Lv. Max,canseeSky
-279,pelipper,#cobblemon:is_coast,#cobblemon:is_spooky,any,any,grounded,natural,,common,5.0,25,40,true
-279,pelipper,"#cobblemon:is_coast, #cobblemon:is_plains",#cobblemon:is_spooky,any,rain,grounded,natural,,common,10.0,25,40,true
-366,clamperl,#cobblemon:is_deep,,any,any,seafloor,underwater,,uncommon,9.0,15,34,true
-353,shuppet,#cobblemon:is_spooky,,night,any,grounded,,,common,5.0,13,36,true
-297,hariyama,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_plains, #cobblemon:is_cave",,any,any,grounded,natural,,uncommon,2.0,24,50,true
-231,phanpy,#cobblemon:is_savanna,,any,any,grounded,,,common,5.4,10,33,true
-179,mareep,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,9.0,4,28,true
-372,shelgon,#cobblemon:is_dripstone,,any,any,grounded,,,ultra-rare,5.0,30,42,true
-372,shelgon,#cobblemon:is_dripstone,,any,any,grounded,,,rare,2.0,30,42,false
-326,grumpig,#cobblemon:is_hills,,any,any,grounded,,,uncommon,1,32,47,true
-373,salamence,"#cobblemon:is_dripstone, #cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.05,50,60,true
-373,salamence,#cobblemon:is_dripstone,,any,any,grounded,,,rare,0.01,50,60,false
-187,hoppip,#cobblemon:is_plains,,day,clear,grounded,,,common,9.0,4,25,true
-188,skiploom,#cobblemon:is_plains,,day,clear,grounded,,,common,0.9,18,34,true
-224,octillery,#cobblemon:is_lukewarm,,any,any,seafloor,underwater,,common,1.0,25,48,true
-158,totodile,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,9.0,5,31,true
-158,totodile,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,9.0,5,31,true
-171,lanturn,#cobblemon:is_deep,,any,any,submerged,underwater,,common,0.6,27,46,true
-157,typlosion,minecraft:crimson_forest,,any,any,grounded,natural,,ultra-rare,0.1,36,53,
-157,typlosion,#cobblemon:is_temperate,#cobblemon:is_spooky,any,clear,grounded,natural,,ultra-rare,0.1,36,53,true
-222,corsola,#cobblemon:is_reef,,any,any,seafloor,underwater,,uncommon,10.0,15,41,true
-359,absol,#cobblemon:is_mountain,,any,any,grounded,,,rare,10.0,25,46,true
-363,spheal,#cobblemon:is_frozen,,any,any,grounded,,,common,3.0,12,31,true
-363,spheal,#cobblemon:is_frozen,,any,any,submerged,underwater,,common,3.0,12,31,true
-328,trapinch,#cobblemon:is_desert,,any,any,grounded,,,rare,2,16,34,true
-328,trapinch,#cobblemon:is_desert,,any,any,grounded,,,rare,2,16,34,false
-165,ledyba,#cobblemon:is_temperate,#cobblemon:is_freezing,day,clear,grounded,,,common,10.0,5,26,true
-308,medicham,#cobblemon:is_mountain,,any,any,grounded,,,common,1,37,41,true
+133,eevee,#cobblemon:is_overworld,,any,any,grounded,natural,,uncommon,1.0,5,20,true
+152,chikorita,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,9.0,5,32,true
+153,bayleef,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,0.9,16,40,true
+154,meganium,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,0.1,32,52,true
+155,cyndaquil,minecraft:crimson_forest,,any,any,grounded,natural,,ultra-rare,9.0,5,31,
+155,cyndaquil,#cobblemon:is_temperate,#cobblemon:is_spooky,any,clear,grounded,natural,,ultra-rare,9.0,5,31,true
 156,quilava,minecraft:crimson_forest,,any,any,grounded,natural,,ultra-rare,0.9,17,40,
 156,quilava,#cobblemon:is_temperate,#cobblemon:is_spooky,any,clear,grounded,natural,,ultra-rare,0.9,17,40,true
-348,armaldo,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,40,49,true
-348,armaldo,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,40,49,true
-348,armaldo,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,40,49,false
-348,armaldo,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,40,49,false
-368,gorebyss,#cobblemon:is_deep,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
-217,ursaring,"#cobblemon:is_forest, #cobblemon:is_cave",,any,any,grounded,natural,,uncommon,5,30,60,true
-360,wynaut,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,,,rare,9.0,3,26,false
-330,flygon,#cobblemon:is_desert,,any,rain,grounded,,,rare,0.02,45,52,true
-225,delibird,#cobblemon:is_peak,,day,any,grounded,,,rare,10.0,5,33,true
-354,banette,#cobblemon:is_spooky,,night,any,grounded,,,common,0.01,37,45,true
-305,lairon,#cobblemon:is_cave,,any,any,grounded,natural,,uncommon,2.0,32,50,
-305,lairon,"#cobblemon:is_mountain, #cobblemon:is_hills",,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore, minecraft:water",uncommon,2.0,32,50,
-305,lairon,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore, minecraft:iron_block",uncommon,1.0,32,50,true
-288,vigoroth,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_plains",,any,any,grounded,"natural, treetop",,uncommon,7.0,18,40,
-298,azurill,#minecraft:is_overworld,,any,any,grounded,"natural, freshwater",minecraft:water,common,5.0,1,20,true
-261,poochyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,,uncommon,3.0,2,30,true
-261,poochyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,minecraft:stone,common,9.0,2,30,false
-325,spoink,#cobblemon:is_hills,,any,any,grounded,,,common,1,10,33,true
-211,qwilfish,"#cobblemon:is_lukewarm, #cobblemon:is_reef",,any,any,submerged,underwater,,uncommon,10.0,20,44,true
-284,masquerain,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_river",,any,clear,grounded,"natural, freshwater",minecraft:water,common,7.0,22,45,true
-264,linoone,"#cobblemon:is_grassland, #cobblemon:is_forest",#cobblemon:is_spooky,night,any,grounded,natural,,common,1.0,20,35,true
-264,linoone,#cobblemon:is_overworld,,any,any,grounded,"natural, river",minecraft:tall_grass,common,1.0,20,40,true
-264,linoone galarian,"#cobblemon:is_grassland, #cobblemon:is_forest",,any,any,grounded,natural,,common,1.0,20,40,true
-329,vibrava,#cobblemon:is_desert,,any,rain,grounded,,,rare,1,35,44,true
-283,surskit,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_river",,any,any,grounded,"natural, Freshwater",minecraft:water,common,9.0,2,30,true
-362,glalie,#cobblemon:is_glacial,,any,any,grounded,,,rare,1.0,42,48,true
-296,makuhita,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_plains, #cobblemon:is_cave",,any,any,grounded,natural,,common,1.0,5,30,true
-334,altaria,"#cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,day,clear,grounded,,,uncommon,0.02,35,49,true
-336,seviper,#cobblemon:is_savanna,,any,any,grounded,,,uncommon,2,19,46,true
-278,wingull,#cobblemon:is_coast,#cobblemon:is_frozen,any,any,grounded,natural,,common,10.0,4,32,true
-268,cascoon,#cobblemon:is_forest,,any,any,grounded,"natural, treetop",,common,2.0,7,20,true
-268,cascoon,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,2.0,7,20,true
-331,cacnea,#cobblemon:is_sandy,,any,any,grounded,,,common,9.0,7,33,true
-309,electrike,#cobblemon:is_plains,,any,any,grounded,,,common,3,8,29,true
+157,typlosion,minecraft:crimson_forest,,any,any,grounded,natural,,ultra-rare,0.1,36,53,
+157,typlosion,#cobblemon:is_temperate,#cobblemon:is_spooky,any,clear,grounded,natural,,ultra-rare,0.1,36,53,true
+158,totodile,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,9.0,5,31,true
+158,totodile,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,9.0,5,31,true
+159,croconaw,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,0.9,18,40,true
+159,croconaw,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,0.9,18,40,true
+160,feraligatr,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,0.1,30,53,true
+160,feraligatr,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,0.1,30,53,true
+161,sentret,"#cobblemon:is_taiga, #cobblemon:is_temperate, #cobblemon:is_tundra",,any,any,grounded,natural,,common,9.0,4,21,true
+162,furret,"#cobblemon:is_taiga, #cobblemon:is_temperate, #cobblemon:is_tundra",,any,any,grounded,natural,,common,1.0,15,41,true
+163,hoothoot,"#cobblemon:is_forest, #cobblemon:is_sky, #cobblemon:is_spooky",,night,clear,grounded,natural,,common,9.0,6,26,true
+164,noctowl,"#cobblemon:is_forest, #cobblemon:is_sky, #cobblemon:is_spooky",,night,clear,grounded,,,common,1.0,20,45,true
+165,ledyba,#cobblemon:is_temperate,#cobblemon:is_freezing,day,clear,grounded,,,common,10.0,5,26,true
+166,ledian,#cobblemon:is_temperate,#cobblemon:is_freezing,night,clear,grounded,,,common,2.0,18,39,true
 167,spinarak,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_spooky",#cobblemon:is_freezing,night,clear,grounded,,,common,5.4,5,25,true
 167,spinarak,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,,,common,5.4,5,25,false
-332,cacturne,#cobblemon:is_sandy,,any,any,grounded,,,common,1.0,32,47,true
-170,chinchou,#cobblemon:is_deep,,any,any,submerged,underwater,,common,5.4,12,33,true
-285,shroomish,"#cobblemon:is_forest, #cobblemon:is_mushroom",,any,any,grounded,natural,,common,3,5,30,true
-133,eevee,#cobblemon:is_overworld,,any,any,grounded,natural,,uncommon,1.0,5,20,true
-369,relicanth,#cobblemon:is_deep,,any,any,submerged,underwater,,rare,10.0,20,48,
-266,silcoon,#cobblemon:is_forest,#cobblemon:is_spooky,any,any,grounded,"natural, treetop",,common,2.0,7,20,true
-266,silcoon,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,2.0,7,20,true
-338,solrock,#cobblemon:is_dripstone,,day,any,grounded,,,uncommon,2.0,20,46,true
-338,solrock,#cobblemon:is_dripstone,,any,any,grounded,,,common,2.0,20,46,false
-338,solrock,#cobblemon:is_mountain,,day,any,grounded,,,rare,2.0,20,46,true
 168,ariados,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_spooky",#cobblemon:is_freezing,night,clear,grounded,,,common,0.6,22,40,true
 168,ariados,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,,,common,0.6,22,40,false
-367,huntail,#cobblemon:is_deep,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
-287,slakoth,"#cobblemon:is_forest, #cobblemon:is_jungle",,any,any,grounded,"natural, treetop",,uncommon,5.0,5,20,
-333,swablu,"#cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,day,clear,grounded,,,uncommon,5,16,34,true
-310,manectric,#cobblemon:is_plains,,any,any,grounded,,,common,1,26,47,true
-301,delcatty,"#cobblemon:is_plains, #cobblemon:is_forest, #cobblemon:is_desert",,night,any,grounded,,"minecraft:grass, minecraft:tallgrass, minecraft:oak_log",uncommon,5,10,30,true
-301,delcatty,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_desert",,any,any,grounded,,"minecraft:oak_door, minecraft:spruce_door, minecraft:acacia_door, minecraft:chest",uncommon,7,10,30,false
-206,dunsparce,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,natural,,uncommon,1.8,12,41,false
-307,meditite,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_snowy",,any,any,grounded,natural,,uncommon,5,5,40,true
-307,meditite,#cobblemon:is_overworld,,any,any,grounded,,#minecraft:sweet_berry_bush,common,9.0,10,40,true
+170,chinchou,#cobblemon:is_deep,,any,any,submerged,underwater,,common,5.4,12,33,true
+171,lanturn,#cobblemon:is_deep,,any,any,submerged,underwater,,common,0.6,27,46,true
+175,togepi,"#cobblemon:is_floral, #cobblemon:is_magical, #cobblemon:is_sky","#cobblemon:is_plains, #cobblemon:is_spooky",day,clear,grounded,,,rare,9.0,4,24,true
 176,togetic,"#cobblemon:is_floral, #cobblemon:is_magical, #cobblemon:is_sky","#cobblemon:is_plains, #cobblemon:is_spooky",day,clear,grounded,,,rare,0.9,25,40,true
+179,mareep,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,9.0,4,28,true
+180,flaaffy,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,0.9,15,36,true
+181,ampharos,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,0.1,30,51,true
+185,sudowoodo,#cobblemon:is_forest,#cobblemon:is_spooky,any,clear,grounded,,,rare,1.0,16,41,true
+187,hoppip,#cobblemon:is_plains,,day,clear,grounded,,,common,9.0,4,25,true
+188,skiploom,#cobblemon:is_plains,,day,clear,grounded,,,common,0.9,18,34,true
+189,jumpluff,#cobblemon:is_plains,,day,clear,grounded,,,common,0.1,27,46,true
+190,aipom,#cobblemon:is_jungle,,any,any,grounded,,,common,5.4,15,36,true
+191,sunkern,minecraft:sunflower_plains,,day,any,grounded,,,common,9.9,1,18,true
+192,sunflora,minecraft:sunflower_plains,,day,any,grounded,,,common,0.1,19,42,true
+202,wobbuffet,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,natural,,rare,1.0,15,40,false
+203,girafarig,#cobblemon:is_savanna,,day,any,grounded,natural,,common,9.0,19,45,true
+206,dunsparce,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,natural,,uncommon,1.8,12,41,false
+207,gligar,#cobblemon:is_badlands,,night,any,grounded,natural,,uncommon,5.4,13,43,true
+209,snubbull,"#cobblemon:is_taiga, #cobblemon:is_temperate",,any,any,grounded,"natural, urban",,uncommon,5.4,7,30,true
+210,granbull,"#cobblemon:is_taiga, #cobblemon:is_temperate",,any,any,grounded,"natural, urban",,uncommon,0.6,23,45,true
+211,qwilfish,"#cobblemon:is_lukewarm, #cobblemon:is_reef",,any,any,submerged,underwater,,uncommon,10.0,20,44,true
+213,shuckle,#cobblemon:is_lush,,any,any,grounded,,,uncommon,2.0,15,50,false
+214,heracross,#cobblemon:is_forest,#cobblemon:is_spooky,night,any,grounded,,,rare,2.0,20,50,true
+214,heracross,#cobblemon:is_jungle,,night,any,grounded,,,uncommon,2.0,20,50,true
+216,teddiursa,"#cobblemon:is_forest, #cobblemon:is_cave",,any,any,grounded,natural,,common,5,5,30,true
+217,ursaring,"#cobblemon:is_forest, #cobblemon:is_cave",,any,any,grounded,natural,,uncommon,5,30,60,true
+222,corsola,#cobblemon:is_reef,,any,any,seafloor,underwater,,uncommon,10.0,15,41,true
+223,remoraid,#cobblemon:is_lukewarm,,any,any,submerged,underwater,,common,9.0,4,30,true
+224,octillery,#cobblemon:is_lukewarm,,any,any,seafloor,underwater,,common,1.0,25,48,true
+225,delibird,#cobblemon:is_peak,,day,any,grounded,,,rare,10.0,5,33,true
+226,mantine,#cobblemon:is_lukewarm,,any,any,submerged,underwater,,uncommon,1.0,35,48,true
+227,skarmory,"#cobblemon:is_sandy, #cobblemon:is_sky",,day,any,grounded,,,rare,10.0,20,46,true
+228,houndour,#minecraft:is_nether,,any,any,grounded,,,uncommon,9.0,8,33,
+229,houndoom,#minecraft:is_nether,,any,any,grounded,,,uncommon,1.0,24,50,
+231,phanpy,#cobblemon:is_savanna,,any,any,grounded,,,common,5.4,10,33,true
+232,donphan,#cobblemon:is_savanna,,any,any,grounded,,,common,0.6,25,50,true
+235,smeargle,#cobblemon:is_overworld,,any,any,grounded,urban,,rare,10.0,11,25,true
+246,larvitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,9.0,15,30,true
+246,larvitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,9.0,15,30,false
+247,pupitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.9,30,54,true
+247,pupitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.9,30,54,false
+248,tyranitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.1,55,60,true
+248,tyranitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.1,55,60,false
+261,poochyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,,uncommon,3.0,2,30,true
+261,poochyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,minecraft:stone,common,9.0,2,30,false
 262,mightyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,,uncommon,2.0,18,45,true
 262,mightyena,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_snowy",,any,any,grounded,natural,minecraft:stone,common,5.0,18,50,false
-191,sunkern,minecraft:sunflower_plains,,day,any,grounded,,,common,9.9,1,18,true
-347,anorith,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,16,35,true
-347,anorith,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,16,35,true
-347,anorith,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,16,35,false
-347,anorith,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,16,35,false
 263,zigzagoon,"#cobblemon:is_grassland, #cobblemon:is_forest",#cobblemon:is_spooky,night,any,grounded,natural,,common,5.0,4,25,true
 263,zigzagoon,#cobblemon:is_overworld,,any,any,grounded,natural,"minecraft:crafting_table, minecraft:chest, minecraft:furnace",common,1.0,4,25,false
 263,zigzagoon,#cobblemon:is_overworld,,any,any,grounded,"foliage, urban, river",,common,2.0,4,25,true
 263,zigzagoon galarian,"#cobblemon:is_grassland, #cobblemon:is_forest",,any,any,grounded,natural,,common,4.0,4,25,true
 263,zigzagoon galarian,#cobblemon:is_overworld,,any,any,grounded,"urban, natural, river",,uncommon,5.0,4,25,true
-203,girafarig,#cobblemon:is_savanna,,day,any,grounded,natural,,common,9.0,19,45,true
-189,jumpluff,#cobblemon:is_plains,,day,clear,grounded,,,common,0.1,27,46,true
+264,linoone,"#cobblemon:is_grassland, #cobblemon:is_forest",#cobblemon:is_spooky,night,any,grounded,natural,,common,1.0,20,35,true
+264,linoone,#cobblemon:is_overworld,,any,any,grounded,"natural, river",minecraft:tall_grass,common,1.0,20,40,true
+264,linoone galarian,"#cobblemon:is_grassland, #cobblemon:is_forest",,any,any,grounded,natural,,common,1.0,20,40,true
+265,wurmple,#cobblemon:is_forest,#cobblemon:is_spooky,any,any,grounded,"natural, treetop",,common,5.0,2,19,true
+265,wurmple,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,5.0,2,19,true
+266,silcoon,#cobblemon:is_forest,#cobblemon:is_spooky,any,any,grounded,"natural, treetop",,common,2.0,7,20,true
+266,silcoon,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,2.0,7,20,true
 267,beautifly,#cobblemon:is_temperate,#cobblemon:is_spooky,day,clear,grounded,natural,,common,1.0,10,39,true
 267,beautifly,"#cobblemon:is_jungle, #cobblemon:is_plains",,day,clear,grounded,natural,,common,1.0,10,39,true
-376,metagross,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.01,45,60,
-185,sudowoodo,#cobblemon:is_forest,#cobblemon:is_spooky,any,clear,grounded,,,rare,1.0,16,41,true
-530,excadrill,#cobblemon:is_cave,,any,any,grounded,natural,,rare,5.0,31,50,
-530,excadrill,"#cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,"minecraft:farmland, minecraft:dirt",rare,1.0,31,50,
-530,excadrill,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:rail, minecraft:oak_planks, minecraft:dirt",common,1.0,31,50,false
-322,numel,"#cobblemon:is_badlands, #cobblemon:is_desert",,day,any,grounded,,,common,4,12,30,true
-322,numel,minecraft:nether_wastes,,any,any,grounded,,,common,2,12,30,
-316,gulpin,#cobblemon:is_swamp,,any,any,grounded,,,common,2,10,30,true
-337,lunatone,#cobblemon:is_dripstone,,night,any,grounded,,,uncommon,2.0,20,46,true
-337,lunatone,#cobblemon:is_dripstone,,any,any,grounded,,,common,2.0,20,46,false
-337,lunatone,#cobblemon:is_mountain,,night,any,grounded,,,rare,2.0,20,46,true
-355,duskull,#cobblemon:is_abyss,,any,any,grounded,underground,,uncommon,5.4,12,36,false
-355,duskull,minecraft:soul_sand_valley,,any,any,grounded,,,common,2.0,12,36,
-355,duskull,#cobblemon:is_spooky,,night,any,grounded,,,common,2.0,12,36,true
-335,zangoose,#cobblemon:is_savanna,,any,any,grounded,,,uncommon,2,19,46,true
-154,meganium,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,0.1,32,52,true
-870,falinks,"#cobblemon:is_arid, #cobblemon:is_desert, #cobblemon:is_temperate",,any,any,grounded,natural,,uncommon,5,10,45,true
-226,mantine,#cobblemon:is_lukewarm,,any,any,submerged,underwater,,uncommon,1.0,35,48,true
-161,sentret,"#cobblemon:is_taiga, #cobblemon:is_temperate, #cobblemon:is_tundra",,any,any,grounded,natural,,common,9.0,4,21,true
+268,cascoon,#cobblemon:is_forest,,any,any,grounded,"natural, treetop",,common,2.0,7,20,true
+268,cascoon,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,2.0,7,20,true
+269,dustox,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_spooky",,night,clear,grounded,natural,,common,2.0,10,39,true
+269,dustox,"#cobblemon:is_jungle, #cobblemon:is_temperate, #cobblemon:is_spooky",,night,clear,grounded,,minLight = 7,common,9.0,10,30,true
 276,taillow,"#cobblemon:is_forest, #cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,,common,3.0,8,35,true
-155,cyndaquil,minecraft:crimson_forest,,any,any,grounded,natural,,ultra-rare,9.0,5,31,
-155,cyndaquil,#cobblemon:is_temperate,#cobblemon:is_spooky,any,clear,grounded,natural,,ultra-rare,9.0,5,31,true
-152,chikorita,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,9.0,5,32,true
-235,smeargle,#cobblemon:is_overworld,,any,any,grounded,urban,,rare,10.0,11,25,true
-214,heracross,#cobblemon:is_forest,#cobblemon:is_spooky,night,any,grounded,,,rare,2.0,20,50,true
-214,heracross,#cobblemon:is_jungle,,night,any,grounded,,,uncommon,2.0,20,50,true
-163,hoothoot,"#cobblemon:is_forest, #cobblemon:is_sky, #cobblemon:is_spooky",,night,clear,grounded,natural,,common,9.0,6,26,true
-162,furret,"#cobblemon:is_taiga, #cobblemon:is_temperate, #cobblemon:is_tundra",,any,any,grounded,natural,,common,1.0,15,41,true
+277,swellow,"#cobblemon:is_desert, #cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,,common,1.0,22,35,true
+278,wingull,#cobblemon:is_coast,#cobblemon:is_frozen,any,any,grounded,natural,,common,10.0,4,32,true
+279,pelipper,#cobblemon:is_coast,#cobblemon:is_spooky,any,any,grounded,natural,,common,5.0,25,40,true
+279,pelipper,"#cobblemon:is_coast, #cobblemon:is_plains",#cobblemon:is_spooky,any,rain,grounded,natural,,common,10.0,25,40,true
+283,surskit,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_river",,any,any,grounded,"natural, Freshwater",minecraft:water,common,9.0,2,30,true
+284,masquerain,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_river",,any,clear,grounded,"natural, freshwater",minecraft:water,common,7.0,22,45,true
+285,shroomish,"#cobblemon:is_forest, #cobblemon:is_mushroom",,any,any,grounded,natural,,common,3,5,30,true
+286,breloom,"#cobblemon:is_forest, #cobblemon:is_mushroom",,any,any,grounded,natural,,uncommon,3,23,45,true
+287,slakoth,"#cobblemon:is_forest, #cobblemon:is_jungle",,any,any,grounded,"natural, treetop",,uncommon,5.0,5,20,
+288,vigoroth,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_plains",,any,any,grounded,"natural, treetop",,uncommon,7.0,18,40,
+289,slaking,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_plains",,any,any,grounded,natural,,uncommon,1.0,36,60,
+290,nincada,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle",,any,any,grounded,natural,,uncommon,5.0,5,20,
+291,ninjask,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle",,any,any,grounded,natural,,uncommon,2.0,20,40,
+292,shedinja,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle, #cobblemon:is_spooky",,any,any,grounded,natural,,uncommon,3.0,20,40,
+292,shedinja,#cobblemon:is_spooky,,any,any,grounded,natural,,common,2.0,20,40,
+296,makuhita,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_plains, #cobblemon:is_cave",,any,any,grounded,natural,,common,1.0,5,30,true
+297,hariyama,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_plains, #cobblemon:is_cave",,any,any,grounded,natural,,uncommon,2.0,24,50,true
+298,azurill,#minecraft:is_overworld,,any,any,grounded,"natural, freshwater",minecraft:water,common,5.0,1,20,true
+300,skitty,"#cobblemon:is_plains, #cobblemon:is_forest, #cobblemon:is_desert",,any,any,grounded,,"minecraft:grass, minecraft:tallgrass, minecraft:oak_log",uncommon,5,1,10,true
+300,skitty,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_desert",,any,any,grounded,,"minecraft:oak_door, minecraft:spruce_door, minecraft:acacia_door, minecraft:chest",uncommon,5,1,15,false
+301,delcatty,"#cobblemon:is_plains, #cobblemon:is_forest, #cobblemon:is_desert",,night,any,grounded,,"minecraft:grass, minecraft:tallgrass, minecraft:oak_log",uncommon,5,10,30,true
+301,delcatty,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_desert",,any,any,grounded,,"minecraft:oak_door, minecraft:spruce_door, minecraft:acacia_door, minecraft:chest",uncommon,7,10,30,false
 304,aron,#cobblemon:is_cave,,any,any,grounded,natural,,uncommon,7.0,5,25,
 304,aron,"#cobblemon:is_mountain, #cobblemon:is_hills",,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore",common,5.0,5,25,
 304,aron,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:rail, minecraft:iron_trapdoor, create:track",uncommon,2.0,5,25,true
-364,sealeo,#cobblemon:is_frozen,,any,any,grounded,,,common,1.0,32,43,true
-364,sealeo,#cobblemon:is_frozen,,any,any,submerged,underwater,,common,1.0,32,43,true
-862,obstagoon,"#cobblemon:is_grassland, #cobblemon:is_forest",#cobblemon:is_spooky,night,any,grounded,natural,,uncommon,1.0,35,50,true
-862,obstagoon,#cobblemon:is_overworld,,any,any,grounded,"natural, river",,uncommon,1.0,35,50,true
-345,lileep,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,16,35,true
-345,lileep,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,16,35,false
-315,roselia,#cobblemon:is_floral,,any,any,grounded,,,common,0.9,29,40,true
-365,walrein,#cobblemon:is_frozen,,any,any,grounded,,,rare,3.0,44,53,true
-365,walrein,#cobblemon:is_frozen,,any,any,submerged,underwater,,rare,3.0,44,53,true
-166,ledian,#cobblemon:is_temperate,#cobblemon:is_freezing,night,clear,grounded,,,common,2.0,18,39,true
-371,bagon,#cobblemon:is_dripstone,,any,any,grounded,,,ultra-rare,9.0,15,30,true
-371,bagon,#cobblemon:is_dripstone,,any,any,grounded,,,rare,3.0,15,30,false
-216,teddiursa,"#cobblemon:is_forest, #cobblemon:is_cave",,any,any,grounded,natural,,common,5,5,30,true
-229,houndoom,#minecraft:is_nether,,any,any,grounded,,,uncommon,1.0,24,50,
-227,skarmory,"#cobblemon:is_sandy, #cobblemon:is_sky",,day,any,grounded,,,rare,10.0,20,46,true
-374,beldum,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,5.0,5,30,
-159,croconaw,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,0.9,18,40,true
-159,croconaw,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,0.9,18,40,true
-228,houndour,#minecraft:is_nether,,any,any,grounded,,,uncommon,9.0,8,33,
-223,remoraid,#cobblemon:is_lukewarm,,any,any,submerged,underwater,,common,9.0,4,30,true
-375,metang,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,1.0,20,44,
-160,feraligatr,#cobblemon:is_swamp,,any,any,grounded,natural,,ultra-rare,0.1,30,53,true
-160,feraligatr,#cobblemon:is_swamp,,any,any,submerged,underwater,,ultra-rare,0.1,30,53,true
-232,donphan,#cobblemon:is_savanna,,any,any,grounded,,,common,0.6,25,50,true
-210,granbull,"#cobblemon:is_taiga, #cobblemon:is_temperate",,any,any,grounded,"natural, urban",,uncommon,0.6,23,45,true
-209,snubbull,"#cobblemon:is_taiga, #cobblemon:is_temperate",,any,any,grounded,"natural, urban",,uncommon,5.4,7,30,true
-358,chimecho,"#cobblemon:is_magical, #cobblemon:is_mountain, #cobblemon:is_spooky",,night,any,grounded,,,uncommon,0.6,29,45,true
-213,shuckle,#cobblemon:is_lush,,any,any,grounded,,,uncommon,2.0,15,50,false
-356,dusclops,#cobblemon:is_abyss,,any,any,grounded,underground,,uncommon,0.6,37,45,false
-356,dusclops,minecraft:soul_sand_valley,,any,any,grounded,,,rare,2.0,37,45,
-356,dusclops,#cobblemon:is_spooky,,night,any,grounded,,,rare,2.0,37,45,true
-529,drilbur,#cobblemon:is_cave,,any,any,grounded,natural,,uncommon,7.0,5,35,
-529,drilbur,"#cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,"minecraft:farmland, minecraft:dirt",rare,4.0,5,35,
-529,drilbur,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:rail, minecraft:oak_planks, minecraft:dirt",common,5.0,5,35,false
-269,dustox,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_spooky",,night,clear,grounded,natural,,common,2.0,10,39,true
-269,dustox,"#cobblemon:is_jungle, #cobblemon:is_temperate, #cobblemon:is_spooky",,night,clear,grounded,,minLight = 7,common,9.0,10,30,true
-340,whiscash,#cobblemon:is_swamp,,any,any,submerged,underwater,,common,1.0,30,47,true
-190,aipom,#cobblemon:is_jungle,,any,any,grounded,,,common,5.4,15,36,true
-207,gligar,#cobblemon:is_badlands,,night,any,grounded,natural,,uncommon,5.4,13,43,true
-164,noctowl,"#cobblemon:is_forest, #cobblemon:is_sky, #cobblemon:is_spooky",,night,clear,grounded,,,common,1.0,20,45,true
-248,tyranitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.1,55,60,true
-248,tyranitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.1,55,60,false
-317,swalot,#cobblemon:is_swamp,,any,any,grounded,,,common,1,26,47,true
+305,lairon,#cobblemon:is_cave,,any,any,grounded,natural,,uncommon,2.0,32,50,
+305,lairon,"#cobblemon:is_mountain, #cobblemon:is_hills",,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore, minecraft:water",uncommon,2.0,32,50,
+305,lairon,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore, minecraft:iron_block",uncommon,1.0,32,50,true
 306,aggron,#cobblemon:is_cave,,any,any,grounded,natural,,rare,2.0,42,60,
 306,aggron,"#cobblemon:is_mountain, #cobblemon:is_hills",,any,any,grounded,natural,"minecraft:iron_ore, minecraft:deepslate_iron_ore, minecraft:water",rare,2.0,42,60,
 306,aggron,#cobblemon:is_mountain,,any,any,grounded,natural,"maxY = -50, minecraft:diamond_ore, minecraft:bedrock",ultra-rare,1.0,70,75,false
-339,barboach,#cobblemon:is_swamp,,any,any,submerged,underwater,,common,9.0,12,29,true
-357,tropius,#cobblemon:is_jungle,,any,any,grounded,natural,,common,2,5,45,true
-181,ampharos,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,0.1,30,51,true
-286,breloom,"#cobblemon:is_forest, #cobblemon:is_mushroom",,any,any,grounded,natural,,uncommon,3,23,45,true
-778,mimikyu,#cobblemon:is_overworld,,night,any,grounded,,"minecraft:yellow_carpet, minecraft:yellow_banner, minecraft:yellow_bed",rare,5,15,30,false
-778,mimikyu,minecraft:is_overworld,,night,any,grounded,urban,,rare,5.0,20,35,
-289,slaking,"#cobblemon:is_forest, #cobblemon:is_jungle, #cobblemon:is_plains",,any,any,grounded,natural,,uncommon,1.0,36,60,
-202,wobbuffet,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,natural,,rare,1.0,15,40,false
-361,snorunt,#cobblemon:is_glacial,,any,any,grounded,,,rare,8.0,15,41,true
-290,nincada,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle",,any,any,grounded,natural,,uncommon,5.0,5,20,
-180,flaaffy,"#cobblemon:is_highlands, #cobblemon:is_plains",,day,any,grounded,,,common,0.9,15,36,true
-265,wurmple,#cobblemon:is_forest,#cobblemon:is_spooky,any,any,grounded,"natural, treetop",,common,5.0,2,19,true
-265,wurmple,#cobblemon:is_plains,,any,any,grounded,"natural, foliage, treetop",,common,5.0,2,19,true
-175,togepi,"#cobblemon:is_floral, #cobblemon:is_magical, #cobblemon:is_sky","#cobblemon:is_plains, #cobblemon:is_spooky",day,clear,grounded,,,rare,9.0,4,24,true
-352,keckleon,#cobblemon:is_jungle,,any,any,grounded,,,uncommon,3.0,16,44,true
-192,sunflora,minecraft:sunflower_plains,,day,any,grounded,,,common,0.1,19,42,true
-346,cradily,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,40,49,true
-346,cradily,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,40,49,false
-300,skitty,"#cobblemon:is_plains, #cobblemon:is_forest, #cobblemon:is_desert",,any,any,grounded,,"minecraft:grass, minecraft:tallgrass, minecraft:oak_log",uncommon,5,1,10,true
-300,skitty,"#cobblemon:is_forest, #cobblemon:is_plains, #cobblemon:is_desert",,any,any,grounded,,"minecraft:oak_door, minecraft:spruce_door, minecraft:acacia_door, minecraft:chest",uncommon,5,1,15,false
-153,bayleef,#cobblemon:is_floral,,any,clear,grounded,natural,,ultra-rare,0.9,16,40,true
+307,meditite,"#cobblemon:is_forest, #cobblemon:is_hills, #cobblemon:is_snowy",,any,any,grounded,natural,,uncommon,5,5,40,true
+307,meditite,#cobblemon:is_overworld,,any,any,grounded,,#minecraft:sweet_berry_bush,common,9.0,10,40,true
+308,medicham,#cobblemon:is_mountain,,any,any,grounded,,,common,1,37,41,true
+309,electrike,#cobblemon:is_plains,,any,any,grounded,,,common,3,8,29,true
+310,manectric,#cobblemon:is_plains,,any,any,grounded,,,common,1,26,47,true
+315,roselia,#cobblemon:is_floral,,any,any,grounded,,,common,0.9,29,40,true
+316,gulpin,#cobblemon:is_swamp,,any,any,grounded,,,common,2,10,30,true
+317,swalot,#cobblemon:is_swamp,,any,any,grounded,,,common,1,26,47,true
+322,numel,"#cobblemon:is_badlands, #cobblemon:is_desert",,day,any,grounded,,,common,4,12,30,true
+322,numel,minecraft:nether_wastes,,any,any,grounded,,,common,2,12,30,
 323,camerupt,"#cobblemon:is_badlands, #cobblemon:is_desert",,day,any,grounded,,,common,0.01,33,46,true
 323,camerupt,minecraft:nether_wastes,,any,any,grounded,,,common,0.01,33,46,
-292,shedinja,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle, #cobblemon:is_spooky",,any,any,grounded,natural,,uncommon,3.0,20,40,
-292,shedinja,#cobblemon:is_spooky,,any,any,grounded,natural,,common,2.0,20,40,
-247,pupitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.9,30,54,true
-247,pupitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.9,30,54,false
+325,spoink,#cobblemon:is_hills,,any,any,grounded,,,common,1,10,33,true
+326,grumpig,#cobblemon:is_hills,,any,any,grounded,,,uncommon,1,32,47,true
+328,trapinch,#cobblemon:is_desert,,any,any,grounded,,,rare,2,16,34,true
+328,trapinch,#cobblemon:is_desert,,any,any,grounded,,,rare,2,16,34,false
+329,vibrava,#cobblemon:is_desert,,any,rain,grounded,,,rare,1,35,44,true
+330,flygon,#cobblemon:is_desert,,any,rain,grounded,,,rare,0.02,45,52,true
+331,cacnea,#cobblemon:is_sandy,,any,any,grounded,,,common,9.0,7,33,true
+332,cacturne,#cobblemon:is_sandy,,any,any,grounded,,,common,1.0,32,47,true
+333,swablu,"#cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,day,clear,grounded,,,uncommon,5,16,34,true
+334,altaria,"#cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,day,clear,grounded,,,uncommon,0.02,35,49,true
+335,zangoose,#cobblemon:is_savanna,,any,any,grounded,,,uncommon,2,19,46,true
+336,seviper,#cobblemon:is_savanna,,any,any,grounded,,,uncommon,2,19,46,true
+337,lunatone,#cobblemon:is_dripstone,,night,any,grounded,,,uncommon,2.0,20,46,true
+337,lunatone,#cobblemon:is_dripstone,,any,any,grounded,,,common,2.0,20,46,false
+337,lunatone,#cobblemon:is_mountain,,night,any,grounded,,,rare,2.0,20,46,true
+338,solrock,#cobblemon:is_dripstone,,day,any,grounded,,,uncommon,2.0,20,46,true
+338,solrock,#cobblemon:is_dripstone,,any,any,grounded,,,common,2.0,20,46,false
+338,solrock,#cobblemon:is_mountain,,day,any,grounded,,,rare,2.0,20,46,true
+339,barboach,#cobblemon:is_swamp,,any,any,submerged,underwater,,common,9.0,12,29,true
+340,whiscash,#cobblemon:is_swamp,,any,any,submerged,underwater,,common,1.0,30,47,true
+345,lileep,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,16,35,true
+345,lileep,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,16,35,false
+346,cradily,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,40,49,true
+346,cradily,#cobblemon:is_lush,,any,any,seafloor,underwater,,ultra-rare,1.0,40,49,false
+347,anorith,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,16,35,true
+347,anorith,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,16,35,true
+347,anorith,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,16,35,false
+347,anorith,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,16,35,false
+348,armaldo,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,40,49,true
+348,armaldo,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,40,49,true
+348,armaldo,#cobblemon:is_lush,,any,any,grounded,,,ultra-rare,1.0,40,49,false
+348,armaldo,#cobblemon:is_lush,,any,any,submerged,underwater,,ultra-rare,1.0,40,49,false
 351,castform[sunny],#cobblemon:is_arid,,any,clear,grounded,,,ultra-rare,1.0,10,42,true
 351,castform[snowy],#cobblemon:is_freezing,,any,rain,grounded,,,ultra-rare,1.0,10,42,true
 351,castform,#cobblemon:is_overworld,#cobblemon:is_arid,any,clear,grounded,,,ultra-rare,1.0,10,42,true
 351,castform[rainy],#cobblemon:is_overworld,#cobblemon:is_freezing,any,rain,grounded,,,ultra-rare,1.0,10,42,true
-291,ninjask,"#cobblemon:is_temperate, #cobblemon:is_plains, #cobblemon:is_jungle",,any,any,grounded,natural,,uncommon,2.0,20,40,
-277,swellow,"#cobblemon:is_desert, #cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,,common,1.0,22,35,true
-246,larvitar,#cobblemon:is_mountain,#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,9.0,15,30,true
-246,larvitar,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,9.0,15,30,false
+352,keckleon,#cobblemon:is_jungle,,any,any,grounded,,,uncommon,3.0,16,44,true
+353,shuppet,#cobblemon:is_spooky,,night,any,grounded,,,common,5.0,13,36,true
+354,banette,#cobblemon:is_spooky,,night,any,grounded,,,common,0.01,37,45,true
+355,duskull,#cobblemon:is_abyss,,any,any,grounded,underground,,uncommon,5.4,12,36,false
+355,duskull,minecraft:soul_sand_valley,,any,any,grounded,,,common,2.0,12,36,
+355,duskull,#cobblemon:is_spooky,,night,any,grounded,,,common,2.0,12,36,true
+356,dusclops,#cobblemon:is_abyss,,any,any,grounded,underground,,uncommon,0.6,37,45,false
+356,dusclops,minecraft:soul_sand_valley,,any,any,grounded,,,rare,2.0,37,45,
+356,dusclops,#cobblemon:is_spooky,,night,any,grounded,,,rare,2.0,37,45,true
+357,tropius,#cobblemon:is_jungle,,any,any,grounded,natural,,common,2,5,45,true
+358,chimecho,"#cobblemon:is_magical, #cobblemon:is_mountain, #cobblemon:is_spooky",,night,any,grounded,,,uncommon,0.6,29,45,true
+359,absol,#cobblemon:is_mountain,,any,any,grounded,,,rare,10.0,25,46,true
+360,wynaut,#cobblemon:is_overworld,#cobblemon:is_abyss,any,any,grounded,,,rare,9.0,3,26,false
+361,snorunt,#cobblemon:is_glacial,,any,any,grounded,,,rare,8.0,15,41,true
+362,glalie,#cobblemon:is_glacial,,any,any,grounded,,,rare,1.0,42,48,true
+363,spheal,#cobblemon:is_frozen,,any,any,grounded,,,common,3.0,12,31,true
+363,spheal,#cobblemon:is_frozen,,any,any,submerged,underwater,,common,3.0,12,31,true
+364,sealeo,#cobblemon:is_frozen,,any,any,grounded,,,common,1.0,32,43,true
+364,sealeo,#cobblemon:is_frozen,,any,any,submerged,underwater,,common,1.0,32,43,true
+365,walrein,#cobblemon:is_frozen,,any,any,grounded,,,rare,3.0,44,53,true
+365,walrein,#cobblemon:is_frozen,,any,any,submerged,underwater,,rare,3.0,44,53,true
+366,clamperl,#cobblemon:is_deep,,any,any,seafloor,underwater,,uncommon,9.0,15,34,true
+367,huntail,#cobblemon:is_deep,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
+368,gorebyss,#cobblemon:is_deep,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
+369,relicanth,#cobblemon:is_deep,,any,any,submerged,underwater,,rare,10.0,20,48,
+371,bagon,#cobblemon:is_dripstone,,any,any,grounded,,,ultra-rare,9.0,15,30,true
+371,bagon,#cobblemon:is_dripstone,,any,any,grounded,,,rare,3.0,15,30,false
+372,shelgon,#cobblemon:is_dripstone,,any,any,grounded,,,ultra-rare,5.0,30,42,true
+372,shelgon,#cobblemon:is_dripstone,,any,any,grounded,,,rare,2.0,30,42,false
+373,salamence,"#cobblemon:is_dripstone, #cobblemon:is_mountain, #cobblemon:is_sky",#cobblemon:is_freezing,any,any,grounded,,,ultra-rare,0.05,50,60,true
+373,salamence,#cobblemon:is_dripstone,,any,any,grounded,,,rare,0.01,50,60,false
+374,beldum,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,5.0,5,30,
+375,metang,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,1.0,20,44,
+376,metagross,#cobblemon:is_mountain,,any,any,grounded,,,ultra-rare,0.01,45,60,
+529,drilbur,#cobblemon:is_cave,,any,any,grounded,natural,,uncommon,7.0,5,35,
+529,drilbur,"#cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,"minecraft:farmland, minecraft:dirt",rare,4.0,5,35,
+529,drilbur,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:rail, minecraft:oak_planks, minecraft:dirt",common,5.0,5,35,false
+530,excadrill,#cobblemon:is_cave,,any,any,grounded,natural,,rare,5.0,31,50,
+530,excadrill,"#cobblemon:is_temperate, #cobblemon:is_plains",,any,any,grounded,natural,"minecraft:farmland, minecraft:dirt",rare,1.0,31,50,
+530,excadrill,#minecraft:is_overworld,,any,any,grounded,natural,"minecraft:rail, minecraft:oak_planks, minecraft:dirt",common,1.0,31,50,false
+778,mimikyu,#cobblemon:is_overworld,,night,any,grounded,,"minecraft:yellow_carpet, minecraft:yellow_banner, minecraft:yellow_bed",rare,5,15,30,false
+778,mimikyu,minecraft:is_overworld,,night,any,grounded,urban,,rare,5.0,20,35,
+862,obstagoon,"#cobblemon:is_grassland, #cobblemon:is_forest",#cobblemon:is_spooky,night,any,grounded,natural,,uncommon,1.0,35,50,true
+862,obstagoon,#cobblemon:is_overworld,,any,any,grounded,"natural, river",,uncommon,1.0,35,50,true
+870,falinks,"#cobblemon:is_arid, #cobblemon:is_desert, #cobblemon:is_temperate",,any,any,grounded,natural,,uncommon,5,10,45,true

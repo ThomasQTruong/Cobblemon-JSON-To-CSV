@@ -1,4 +1,4 @@
-import os, csv, json
+import os, csv, json, operator
 
 def main():
   # Directory to read data files from.
@@ -6,13 +6,16 @@ def main():
   
   # Create CSV in write mode.
   with open("cobblemonQALPS.csv", "w") as csvFile:
-    spamwriter = csv.writer(csvFile, quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    csvWriter = csv.writer(csvFile, quotechar='"', quoting=csv.QUOTE_MINIMAL)
     # Create headers.
-    spamwriter.writerow(["No.", "Pokemon", "Biome", "Excluded", "Time", "Weather", "Context", "Preset",
+    csvWriter.writerow(["No.", "Pokemon", "Biome", "Excluded", "Time", "Weather", "Context", "Preset",
                          "Requirements", "Bucket", "Weight", "Lv. Min", "Lv. Max", "canseeSky"])
 
+    # Gets and sorts directory.
+    sortedDirectory = sorted(os.listdir(QALPS_DIR))
+
     # For every fileName in directory.
-    for fileName in os.listdir(QALPS_DIR):
+    for fileName in sortedDirectory:
       # Obtain Pokemon Index.
       pIndex = str(int(fileName.split("_")[0]))
       pFile = open(QALPS_DIR + fileName, "r")
@@ -96,7 +99,7 @@ def main():
           pSeeSky = ""
         
         # Write all the information into the row.
-        spamwriter.writerow([pIndex, pName, pBiomes, pExcluded, pTime, pWeather, pContext, pPresets,
+        csvWriter.writerow([pIndex, pName, pBiomes, pExcluded, pTime, pWeather, pContext, pPresets,
                              pRequirement, pBucket, pWeight, pLvMin, pLvMax, pSeeSky])
       
       # Close file.
