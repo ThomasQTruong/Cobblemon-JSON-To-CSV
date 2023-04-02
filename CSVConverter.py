@@ -1,6 +1,7 @@
 import os, csv, json
 
 def main():
+  # Directory to read data files from.
   QALPS_DIR = "./QALPS/"
   
   # Create CSV in write mode.
@@ -88,13 +89,19 @@ def main():
         pLvMin = pLvRange[0]
         pLvMax = pLvRange[1]
 
+        # Get seeSky attribute.
         if ("canSeeSky" in spawn["condition"]):
           pSeeSky = json.dumps(spawn["condition"]["canSeeSky"]).replace('"', '')
         else:
           pSeeSky = ""
+        
+        # Write all the information into the row.
         spamwriter.writerow([pIndex, pName, pBiomes, pExcluded, pTime, pWeather, pContext, pPresets,
                              pRequirement, pBucket, pWeight, pLvMin, pLvMax, pSeeSky])
+      
+      # Close file.
       pFile.close()
+
 
 if __name__ == "__main__":
   main()
