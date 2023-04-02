@@ -1,4 +1,4 @@
-import os, csv, json, operator
+import os, csv, json
 
 def main():
   # Directory to read data files from.
