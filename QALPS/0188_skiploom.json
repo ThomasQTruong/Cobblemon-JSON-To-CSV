@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skiploom",
+            "pokemon": "skiploom",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-34",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ],
+                "timeRange": "day",
+                "isRaining": false
+            }
+        }
+    ]
+}

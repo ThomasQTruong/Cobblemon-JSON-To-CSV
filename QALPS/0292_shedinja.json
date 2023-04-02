@@ -1,0 +1,49 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shedinja-1",
+            "pokemon": "shedinja",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 3.0,
+            "canSeeSky": true,
+            "isRaining": false,
+            "timerange": "night",
+            "condition": {
+				"biomes": [
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_spooky"
+                ]
+			}
+        },
+        {
+            "id": "shedinja-2",
+            "pokemon": "shedinja",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 2.0,
+            "canSeeSky": true,
+            "isRaining": false,
+            "condition": {
+				"biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+			}
+        }
+    ]
+}

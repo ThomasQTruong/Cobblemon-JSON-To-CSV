@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mightyena-1",
+            "pokemon": "mightyena",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-45",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+					"#cobblemon:is_snowy"
+                ]
+            }
+        },
+        {
+            "id": "mightyena-2",
+            "pokemon": "mightyena",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-50",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+					"#cobblemon:is_snowy"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:stone"
+                ]
+            }
+        }
+    ]
+}

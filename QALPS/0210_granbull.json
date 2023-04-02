@@ -1,0 +1,27 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "granbull",
+            "pokemon": "granbull",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "23-45",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        }
+    ]
+}

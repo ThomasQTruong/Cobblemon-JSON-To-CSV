@@ -1,0 +1,37 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bagon",
+            "pokemon": "bagon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "15-30",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        },
+        {
+            "id": "bagon",
+            "pokemon": "bagon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-30",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        }
+    ]
+}

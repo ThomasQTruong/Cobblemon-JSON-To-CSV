@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "donphan",
+            "pokemon": "donphan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-50",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

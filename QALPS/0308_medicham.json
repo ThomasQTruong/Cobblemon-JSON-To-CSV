@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "medicham",
+            "pokemon": "medicham",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-41",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

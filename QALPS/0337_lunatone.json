@@ -1,0 +1,54 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lunatone",
+            "pokemon": "lunatone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "lunatone",
+            "pokemon": "lunatone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ]
+            }
+        },
+        {
+            "id": "lunatone",
+            "pokemon": "lunatone",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-46",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skitty-1",
+            "pokemon": "skitty",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-10",
+            "weight": 5,
+            "condition": {
+                "canSeeSky":true,
+                "biomes": [
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:grass",
+                    "minecraft:tallgrass",
+                    "minecraft:oak_log"
+                ]
+            }
+        },
+        {
+            "id": "skitty-2",
+            "pokemon": "skitty",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-15",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_desert"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:oak_door",
+                    "minecraft:spruce_door",
+                    "minecraft:acacia_door",
+                    "minecraft:chest"
+                ]
+            }
+        }
+    ]
+}

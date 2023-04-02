@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skarmory",
+            "pokemon": "skarmory",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-46",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy",
+                    "#cobblemon:is_sky"
+                ],
+                "timeRange": "day"
+            }
+        }
+    ]
+}
