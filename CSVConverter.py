@@ -1,9 +1,9 @@
 import os, csv, json
 
+# Directory to read data files from.
+QALPS_DIR = "./QALPS/"
+
 def main():
-  # Directory to read data files from.
-  QALPS_DIR = "./QALPS/"
-  
   # Create CSV in write mode.
   with open("cobblemonQALPS.csv", "w") as csvFile:
     csvWriter = csv.writer(csvFile, quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -24,79 +24,75 @@ def main():
 
       for spawn in pData["spawns"]:
         # Get pokemon name.
-        pName = json.dumps(spawn["pokemon"]).replace('"', '')
+        pName = cleanJsonValue(spawn["pokemon"]).capitalize()
         
         # Get and format biome(s).
-        pBiomes = json.dumps(spawn["condition"]["biomes"])[1:-1].replace('"', '')
+        pBiomes = cleanJsonArray(spawn["condition"]["biomes"])
         
         # Get and format exclusion if exists.
+        pExcluded = ""
         if ("anticondition" in spawn):
-          pExcluded = json.dumps(spawn["anticondition"]["biomes"])[1:-1].replace('"', '')
-        else:
-          pExcluded = ""
+          pExcluded = cleanJsonArray(spawn["anticondition"]["biomes"])
 
         # Get and format time if exists.
+        pTime = "any"
         if ("timeRange" in spawn["condition"]):
-          pTime = json.dumps(spawn["condition"]["timeRange"]).replace('"', '')
-        else:
-          pTime = "any"
+          pTime = cleanJsonValue(spawn["condition"]["timeRange"])
         
         # Get and format weather if exists.
-        if ("isRaining" in spawn["condition"]):
-          if (json.dumps(spawn["condition"]["isRaining"]).replace('"', '') == "true"):
+        pWeather = "any"
+        if ("isThundering" in spawn["condition"] and cleanJsonValue(spawn["condition"]["isThundering"]) == "true"):
+          pWeather = "storm"
+        elif ("isRaining" in spawn["condition"]):
+          if (cleanJsonValue(spawn["condition"]["isRaining"]) == "true"):
             pWeather = "rain"
           else:
             pWeather = "clear"
-        else:
-          pWeather = "any"
 
         # Get context.
-        pContext = json.dumps(spawn["context"]).replace('"', '')
+        pContext = cleanJsonValue(spawn["context"])
 
         # Get preset(s) if exist.
+        pPresets = ""
         if ("presets" in spawn):
-          pPresets = json.dumps(spawn["presets"])[1:-1].replace('"', '')
-        else:
-          pPresets = ""
+          pPresets = cleanJsonArray(spawn["presets"])
 
         # Get and format requirement(s).
+        pMinY = ""
+        pMaxY = ""
+        pMinLight = ""
+        pReqBlocks = ""
         if ("minY" in spawn["condition"]):  # Get minY if exists.
-          pMinY = json.dumps(spawn["condition"]["minY"]).replace('"', '')
+          pMinY = cleanJsonValue(spawn["condition"]["minY"])
           pMinY = "minY = " + pMinY
-        else:
-          pMinY = ""
         if ("maxY" in spawn["condition"]):  # Get maxY if exists.
-          pMaxY = json.dumps(spawn["condition"]["maxY"]).replace('"', '')
+          pMaxY = cleanJsonValue(spawn["condition"]["maxY"])
           pMaxY = "maxY = " + pMaxY
-        else:
-          pMaxY = ""
         if ("minLight" in spawn["condition"]):  # Get minLight if exists.
-          pMinLight = json.dumps(spawn["condition"]["minLight"]).replace('"', '')
+          pMinLight = cleanJsonValue(spawn["condition"]["minLight"])
           pMinLight = "minLight = " + pMinLight
-        else:
-          pMinLight = ""
         if ("neededNearbyBlocks" in spawn["condition"]): # Get required blocks if exists.
-          pReqBlocks = json.dumps(spawn["condition"]["neededNearbyBlocks"])[1:-1].replace('"', '')
-        else:
-          pReqBlocks = ""
+          pReqBlocks = cleanJsonArray(spawn["condition"]["neededNearbyBlocks"])
         pRequirement = ", ".join(filter(None, [pMinY, pMaxY, pMinLight, pReqBlocks]))
 
         # Get bucket.
-        pBucket = json.dumps(spawn["bucket"]).replace('"', '')
+        pBucket = cleanJsonValue(spawn["bucket"])
         
         # Get Weight.
-        pWeight = json.dumps(spawn["weight"]).replace('"', '')
+        pWeight = cleanJsonValue(spawn["weight"])
         
         # Get level range.
-        pLvRange = json.dumps(spawn["level"]).replace('"', '').split("-")
+        pLvRange = cleanJsonValue(spawn["level"]).split("-")
         pLvMin = pLvRange[0]
-        pLvMax = pLvRange[1]
+        if (len(pLvRange) == 2):
+          pLvMax = pLvRange[1]
+        else:
+          pLvMax = pLvMin
 
         # Get seeSky attribute.
+        pSeeSky = ""
         if ("canSeeSky" in spawn["condition"]):
-          pSeeSky = json.dumps(spawn["condition"]["canSeeSky"]).replace('"', '')
-        else:
-          pSeeSky = ""
+          pSeeSky = cleanJsonValue(spawn["condition"]["canSeeSky"])
         
         # Write all the information into the row.
         csvWriter.writerow([pIndex, pName, pBiomes, pExcluded, pTime, pWeather, pContext, pPresets,
@@ -104,6 +100,16 @@ def main():
       
       # Close file.
       pFile.close()
+
+
+# Cleans the .json values.
+def cleanJsonValue(jsonVal):
+  return json.dumps(jsonVal).replace('"', '')
+
+
+# Cleans the .json arrays.
+def cleanJsonArray(jsonArr):
+  return json.dumps(jsonArr)[1:-1].replace('"', '')
 
 
 if __name__ == "__main__":
