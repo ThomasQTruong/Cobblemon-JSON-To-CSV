@@ -4,16 +4,21 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "beldum",
-            "pokemon": "beldum",
+            "id": "luxio",
+            "pokemon": "luxio",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "5-30",
+            "bucket": "uncommon",
+            "level": "15-36",
             "weight": 5.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:is_desert",
+                    "#cobblemon:is_savanna"
                 ]
             }
         }

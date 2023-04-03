@@ -4,16 +4,21 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "beldum",
-            "pokemon": "beldum",
+            "id": "luxray",
+            "pokemon": "luxray",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "5-30",
-            "weight": 5.0,
+            "level": "30-52",
+            "weight": 8.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:is_desert",
+                    "#cobblemon:is_savanna"
                 ]
             }
         }

@@ -4,16 +4,20 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "beldum",
-            "pokemon": "beldum",
+            "id": "hippopotas",
+            "pokemon": "hippopotas",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "5-30",
+            "bucket": "common",
+            "level": "12-33",
             "weight": 5.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:is_desert"
                 ]
             }
         }

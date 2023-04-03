@@ -4,16 +4,20 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "beldum",
-            "pokemon": "beldum",
+            "id": "carnivine",
+            "pokemon": "carnivine",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "5-30",
-            "weight": 5.0,
+            "level": "17-45",
+            "weight": 9.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_mountain"
+                    "#cobblemon:is_swamp"
                 ]
             }
         }
