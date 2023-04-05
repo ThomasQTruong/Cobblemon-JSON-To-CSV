@@ -1,4 +1,11 @@
-import os, csv, json
+"""
+ * CSVConverter.py
+ * Converts .json QALPS data files into CSV.
+ * 
+ * Copyright (c) 2023, Thomas Truong
+"""
+
+import os, csv, json, Pokemon
 
 # Directory to read data files from.
 QALPS_DIR = "./QALPS/"
