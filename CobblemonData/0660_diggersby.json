@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "diggersby",
+            "id": "diggersby-1",
             "pokemon": "diggersby",
             "presets": [
                 "natural"

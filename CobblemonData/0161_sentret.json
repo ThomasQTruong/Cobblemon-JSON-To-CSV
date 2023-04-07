@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sentret",
+            "id": "sentret-1",
             "pokemon": "sentret",
             "presets": [
                 "natural"

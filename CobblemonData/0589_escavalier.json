@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "escavalier",
+            "id": "escavalier-1",
             "pokemon": "escavalier",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "donphan",
+            "id": "donphan-1",
             "pokemon": "donphan",
             "type": "pokemon",
             "context": "grounded",

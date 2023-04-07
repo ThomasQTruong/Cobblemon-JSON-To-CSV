@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cranidos",
+            "id": "cranidos-1",
             "pokemon": "cranidos",
             "presets": [
                 "natural"

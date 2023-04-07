@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cacturne",
+            "id": "cacturne-1",
             "pokemon": "cacturne",
             "type": "pokemon",
             "context": "grounded",

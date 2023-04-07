@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hoothoot",
+            "id": "hoothoot-1",
             "pokemon": "hoothoot",
             "presets": [
                 "natural"

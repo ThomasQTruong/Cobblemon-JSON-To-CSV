@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "toxapex",
+            "id": "toxapex-1",
             "pokemon": "toxapex",
             "presets": [
                 "underwater"

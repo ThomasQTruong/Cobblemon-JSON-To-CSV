@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hawlucha",
+            "id": "hawlucha-1",
             "pokemon": "hawlucha",
             "presets": [
                 "natural"

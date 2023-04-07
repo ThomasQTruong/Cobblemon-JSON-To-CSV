@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "lileep",
+            "id": "lileep-1",
             "pokemon": "lileep",
             "presets": [
                 "underwater"

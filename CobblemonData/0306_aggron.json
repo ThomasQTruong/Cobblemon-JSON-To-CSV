@@ -53,7 +53,7 @@
             "context": "grounded",
             "bucket": "ultra-rare",
             "level": "70-75",
-            "weight": 1.0,
+            "weight": 100.0,
             "condition": {
                 "canSeeSky": false,
                 "maxY":-50,

@@ -4,19 +4,22 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "eelectrik",
-            "pokemon": "eelectrik",
+            "id": "feebas-1",
+            "pokemon": "feebas",
             "presets": [
                 "underwater"
             ],
             "type": "pokemon",
             "context": "submerged",
             "bucket": "uncommon",
-            "level": "39-50",
+            "level": "10-20",
             "weight": 1.0,
             "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
+                "isRaining": true,
                 "biomes": [
-                    "#minecraft:is_ocean"
+                    "#cobblemon:is_river"
                 ]
             }
         }

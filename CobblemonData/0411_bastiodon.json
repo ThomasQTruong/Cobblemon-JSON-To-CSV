@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bastiodon",
+            "id": "bastiodon-1",
             "pokemon": "bastiodon",
             "presets": [
                 "natural"

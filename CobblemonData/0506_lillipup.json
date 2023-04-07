@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "lillipup",
+            "id": "lillipup-1",
             "pokemon": "lillipup",
             "presets": [
                 "urban"

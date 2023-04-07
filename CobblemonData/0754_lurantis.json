@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "lurantis",
+            "id": "lurantis-1",
             "pokemon": "lurantis",
             "presets": [
                 "natural"

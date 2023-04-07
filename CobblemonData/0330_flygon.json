@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "flygon",
+            "id": "flygon-1",
             "pokemon": "flygon",
             "type": "pokemon",
             "context": "grounded",

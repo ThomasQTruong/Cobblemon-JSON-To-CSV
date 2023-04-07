@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "trubbish",
+            "id": "trubbish-1",
             "pokemon": "trubbish",
             "presets": [
                 "urban"

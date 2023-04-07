@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "beartic",
+            "id": "beartic-1",
             "pokemon": "beartic",
             "presets": [
                 "natural"

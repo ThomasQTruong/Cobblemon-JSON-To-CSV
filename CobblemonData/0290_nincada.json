@@ -15,16 +15,16 @@
             "level": "5-20",
             "weight": 5.0,
             "condition": {
-				"canSeeSky": false,
 				"biomes": [
                     "#cobblemon:is_temperate",
                     "#cobblemon:is_plains",
                     "#cobblemon:is_jungle"
-                ],
-				"neededNearbyBlocks": [
-					"minecraft:dirt"
-				]
-			}
+                ]
+			},
+            "canSeeSky": false,
+            "neededNearbyBlocks": [
+                "minecraft:dirt"
+            ]
         }
     ]
 }

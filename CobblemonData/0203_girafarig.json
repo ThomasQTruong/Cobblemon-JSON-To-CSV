@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "girafarig",
+            "id": "girafarig-1",
             "pokemon": "girafarig",
             "presets": [
                 "natural"

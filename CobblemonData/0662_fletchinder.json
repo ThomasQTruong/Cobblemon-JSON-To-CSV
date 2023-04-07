@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "fletchinder",
+            "id": "fletchinder-1",
             "pokemon": "fletchinder",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "togetic",
+            "id": "togetic-1",
             "pokemon": "togetic",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "duskull",
+            "id": "duskull-1",
             "pokemon": "duskull",
             "presets": [
                 "underground"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "duskull",
+            "id": "duskull-2",
             "pokemon": "duskull",
             "type": "pokemon",
             "context": "grounded",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "id": "duskull",
+            "id": "duskull-3",
             "pokemon": "duskull",
             "type": "pokemon",
             "context": "grounded",

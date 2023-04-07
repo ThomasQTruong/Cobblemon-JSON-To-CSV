@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "furfrou",
+            "id": "furfrou-1",
             "pokemon": "furfrou",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "totodile",
+            "id": "totodile-1",
             "pokemon": "totodile",
             "presets": [
                 "natural"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "totodile",
+            "id": "totodile-2",
             "pokemon": "totodile",
             "presets": [
                 "underwater"

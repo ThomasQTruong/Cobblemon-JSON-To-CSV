@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bouffalant",
+            "id": "bouffalant-1",
             "pokemon": "bouffalant",
             "presets": [
                 "natural"

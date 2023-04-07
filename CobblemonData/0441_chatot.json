@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "chatot",
+            "id": "chatot-1",
             "pokemon": "chatot",
             "presets": [
                 "natural"

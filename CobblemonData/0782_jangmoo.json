@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "jangmoo-1",
-            "pokemon": "jangmoo",
+            "pokemon": "jangmo-o",
             "presets": [
                 "natural"
             ],

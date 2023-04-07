@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cutiefly",
+            "id": "cutiefly-1",
             "pokemon": "cutiefly",
             "presets": [
                 "natural"

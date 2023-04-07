@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "dunsparce",
+            "id": "dunsparce-1",
             "pokemon": "dunsparce",
             "presets": [
                 "natural"

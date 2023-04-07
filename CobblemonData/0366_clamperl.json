@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "clamperl",
+            "id": "clamperl-1",
             "pokemon": "clamperl",
             "presets": [
                 "underwater"

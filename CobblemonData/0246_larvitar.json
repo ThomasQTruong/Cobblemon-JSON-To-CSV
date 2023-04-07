@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "larvitar",
+            "id": "larvitar-1",
             "pokemon": "larvitar",
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "larvitar",
+            "id": "larvitar-2",
             "pokemon": "larvitar",
             "type": "pokemon",
             "context": "grounded",

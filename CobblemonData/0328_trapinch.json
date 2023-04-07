@@ -4,13 +4,13 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "trapinch",
+            "id": "trapinch-1",
             "pokemon": "trapinch",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
+            "bucket": "uncommon",
             "level": "16-34",
-            "weight": 2,
+            "weight": 5,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -19,13 +19,13 @@
             }
         },
         {
-            "id": "trapinch",
+            "id": "trapinch-2",
             "pokemon": "trapinch",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
             "level": "16-34",
-            "weight": 2,
+            "weight": 20,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [

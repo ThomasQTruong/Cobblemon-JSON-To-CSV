@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "zebstrika",
+            "id": "zebstrika-1",
             "pokemon": "zebstrika",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "croconaw",
+            "id": "croconaw-1",
             "pokemon": "croconaw",
             "presets": [
                 "natural"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "croconaw",
+            "id": "croconaw-2",
             "pokemon": "croconaw",
             "presets": [
                 "underwater"

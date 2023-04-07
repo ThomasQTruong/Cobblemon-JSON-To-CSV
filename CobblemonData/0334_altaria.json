@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "altaria",
+            "id": "altaria-1",
             "pokemon": "altaria",
             "type": "pokemon",
             "context": "grounded",

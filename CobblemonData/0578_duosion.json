@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "duosion",
+            "id": "duosion-1",
             "pokemon": "duosion",
             "presets": [
                 "natural"

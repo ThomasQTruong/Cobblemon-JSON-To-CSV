@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "spoink",
+            "id": "spoink-1",
             "pokemon": "spoink",
             "type": "pokemon",
             "context": "grounded",

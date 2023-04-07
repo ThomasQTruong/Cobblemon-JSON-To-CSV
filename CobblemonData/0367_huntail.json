@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "huntail",
+            "id": "huntail-1",
             "pokemon": "huntail",
             "presets": [
                 "underwater"

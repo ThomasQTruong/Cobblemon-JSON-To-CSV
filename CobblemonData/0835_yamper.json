@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "yamper-1",
+            "pokemon": "yamper",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-20",
+            "weight": 3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+		        "timeRange": "dawn"
+           }
+        }
+    ]
+}

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "purrloin",
+            "id": "purrloin-1",
             "pokemon": "purrloin",
             "presets": [
                 "urban"

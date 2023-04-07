@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chewtle-1",
+            "pokemon": "chewtle",
+            "type": "pokemon",
+            "presets": [
+                "natural",
+		        "freshwater"
+            ],
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "7-20",
+            "weight": 6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+		         "#cobblemon:is_beach"
+                ]
+            }
+        }
+    ]
+}

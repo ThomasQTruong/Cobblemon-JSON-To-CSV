@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "dedenne",
+            "id": "dedenne-1",
             "pokemon": "dedenne",
             "presets": [
                 "natural"

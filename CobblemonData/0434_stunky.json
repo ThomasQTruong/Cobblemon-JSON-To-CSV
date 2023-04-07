@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "stunky",
+            "id": "stunky-1",
             "pokemon": "stunky",
             "presets": [
                 "natural"

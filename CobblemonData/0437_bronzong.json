@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bronzong",
+            "id": "bronzong-1",
             "pokemon": "bronzong",
             "presets": [
                 "natural"

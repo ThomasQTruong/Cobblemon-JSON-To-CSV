@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pawniard",
+            "id": "pawniard-1",
             "pokemon": "pawniard",
             "presets": [
                 "natural"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "pawniard",
+            "id": "pawniard-2",
             "pokemon": "pawniard",
             "presets": [
                 "natural"

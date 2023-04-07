@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "jumpluff",
+            "id": "jumpluff-1",
             "pokemon": "jumpluff",
             "type": "pokemon",
             "context": "grounded",

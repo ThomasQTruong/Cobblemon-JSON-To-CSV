@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "solosis",
+            "id": "solosis-1",
             "pokemon": "solosis",
             "presets": [
                 "natural"

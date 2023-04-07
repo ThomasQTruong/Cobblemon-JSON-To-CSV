@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "whirlipede",
+            "id": "whirlipede-1",
             "pokemon": "whirlipede",
             "presets": [
                 "natural"

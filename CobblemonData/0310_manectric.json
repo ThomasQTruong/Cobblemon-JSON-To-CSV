@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "manectric",
+            "id": "manectric-1",
             "pokemon": "manectric",
             "type": "pokemon",
             "context": "grounded",

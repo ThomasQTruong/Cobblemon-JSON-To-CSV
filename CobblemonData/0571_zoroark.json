@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "zoroark",
+            "id": "zoroark-1",
             "pokemon": "zoroark",
             "presets": [
                 "natural"

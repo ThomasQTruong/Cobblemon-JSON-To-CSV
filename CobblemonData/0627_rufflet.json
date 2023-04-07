@@ -15,9 +15,9 @@
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_forest",
-		    "#cobblemon:is_mountain"
+		            "#cobblemon:is_mountain"
                 ],
-		"timeRange": "day"
+		        "timeRange": "day"
             }
         }
     ]

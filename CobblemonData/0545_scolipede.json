@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "scolipede",
+            "id": "scolipede-1",
             "pokemon": "scolipede",
             "presets": [
                 "natural"

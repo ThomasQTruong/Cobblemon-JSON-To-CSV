@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shuppet",
+            "id": "shuppet-1",
             "pokemon": "shuppet",
             "type": "pokemon",
             "context": "grounded",

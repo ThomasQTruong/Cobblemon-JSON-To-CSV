@@ -30,7 +30,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "5-25",
-            "weight": 5.0,
+            "weight": 10.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_mountain",
@@ -52,7 +52,7 @@
             "context": "grounded",
             "bucket": "uncommon",
             "level": "5-25",
-            "weight": 2.0,
+            "weight": 20.0,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [

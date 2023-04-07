@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "mareep",
+            "id": "mareep-1",
             "pokemon": "mareep",
             "type": "pokemon",
             "context": "grounded",

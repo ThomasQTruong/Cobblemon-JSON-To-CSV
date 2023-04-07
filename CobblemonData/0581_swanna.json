@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swanna",
+            "id": "swanna-1",
             "pokemon": "swanna",
             "presets": [
                 "water_surface"

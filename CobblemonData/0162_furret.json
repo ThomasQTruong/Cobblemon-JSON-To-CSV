@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "furret",
+            "id": "furret-1",
             "pokemon": "furret",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "gothitelle",
+            "id": "gothitelle-1",
             "pokemon": "gothitelle",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ducklett",
+            "id": "ducklett-1",
             "pokemon": "ducklett",
             "presets": [
                 "water_surface"

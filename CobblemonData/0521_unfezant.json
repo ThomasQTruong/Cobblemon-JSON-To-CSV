@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "unfezant",
+            "id": "unfezant-1",
             "pokemon": "unfezant",
             "presets": [
                 "natural"

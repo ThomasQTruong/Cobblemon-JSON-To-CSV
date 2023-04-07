@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "octillery",
+            "id": "octillery-1",
             "pokemon": "octillery",
             "presets": [
                 "underwater"

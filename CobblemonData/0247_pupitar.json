@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pupitar",
+            "id": "pupitar-1",
             "pokemon": "pupitar",
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "pupitar",
+            "id": "pupitar-2",
             "pokemon": "pupitar",
             "type": "pokemon",
             "context": "grounded",

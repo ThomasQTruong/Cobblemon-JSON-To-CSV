@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "drifloon",
+            "id": "drifloon-1",
             "pokemon": "drifloon",
             "presets": [
                 "natural"

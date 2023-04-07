@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "spritzee",
+            "id": "spritzee-1",
             "pokemon": "spritzee",
             "presets": [
                 "natural"

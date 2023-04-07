@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cyndaquil",
+            "id": "cyndaquil-1",
             "pokemon": "cyndaquil",
             "presets": [
                 "natural"
@@ -21,7 +21,7 @@
             }
         },
         {
-            "id": "cyndaquil",
+            "id": "cyndaquil-2",
             "pokemon": "cyndaquil",
             "presets": [
                 "natural"

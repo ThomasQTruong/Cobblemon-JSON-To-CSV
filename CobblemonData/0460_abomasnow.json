@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "abomasnow",
+            "id": "abomasnow-1",
             "pokemon": "abomasnow",
             "type": "pokemon",
             "context": "grounded",

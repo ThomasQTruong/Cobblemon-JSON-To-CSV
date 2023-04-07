@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "mudbray",
+            "id": "mudbray-1",
             "pokemon": "mudbray",
             "presets": [
                 "natural"

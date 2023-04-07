@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "electrike",
+            "id": "electrike-1",
             "pokemon": "electrike",
             "type": "pokemon",
             "context": "grounded",

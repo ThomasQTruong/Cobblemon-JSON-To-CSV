@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ampharos",
+            "id": "ampharos-1",
             "pokemon": "ampharos",
             "type": "pokemon",
             "context": "grounded",

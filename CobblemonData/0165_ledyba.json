@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ledyba",
+            "id": "ledyba-1",
             "pokemon": "ledyba",
             "type": "pokemon",
             "context": "grounded",

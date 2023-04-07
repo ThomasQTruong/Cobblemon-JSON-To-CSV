@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "numel",
+            "id": "numel-1",
             "pokemon": "numel",
             "type": "pokemon",
             "context": "grounded",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "id": "numel",
+            "id": "numel-2",
             "pokemon": "numel",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "spheal",
+            "id": "spheal-1",
             "pokemon": "spheal",
             "type": "pokemon",
             "context": "grounded",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "spheal",
+            "id": "spheal-2",
             "pokemon": "spheal",
             "presets": [
                 "underwater"

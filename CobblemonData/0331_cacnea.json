@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cacnea",
+            "id": "cacnea-1",
             "pokemon": "cacnea",
             "type": "pokemon",
             "context": "grounded",

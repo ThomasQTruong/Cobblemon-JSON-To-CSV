@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "kommoo-1",
-            "pokemon": "kommoo",
+            "pokemon": "kommo-o",
             "presets": [
                 "natural"
             ],

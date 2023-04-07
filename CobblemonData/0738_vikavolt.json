@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "vikavolt",
+            "id": "vikavolt-1",
             "pokemon": "vikavolt",
             "presets": [
                 "natural"

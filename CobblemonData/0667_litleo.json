@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "litleo",
+            "id": "litleo-1",
             "pokemon": "litleo",
             "presets": [
                 "natural"

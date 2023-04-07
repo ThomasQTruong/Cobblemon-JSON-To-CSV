@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swablu",
+            "id": "swablu-1",
             "pokemon": "swablu",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pyroar",
+            "id": "pyroar-1",
             "pokemon": "pyroar",
             "presets": [
                 "natural"

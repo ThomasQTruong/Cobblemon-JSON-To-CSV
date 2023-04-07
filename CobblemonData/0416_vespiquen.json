@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "vespiquen",
+            "id": "vespiquen-1",
             "pokemon": "vespiquen",
             "presets": [
                 "natural"

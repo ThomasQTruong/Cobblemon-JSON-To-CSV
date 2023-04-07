@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hippowdon",
+            "id": "hippowdon-1",
             "pokemon": "hippowdon",
             "presets": [
                 "natural"

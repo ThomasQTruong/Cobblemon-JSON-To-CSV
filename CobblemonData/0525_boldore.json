@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "boldore",
+            "id": "boldore-1",
             "pokemon": "boldore",
             "presets": [
                 "natural"

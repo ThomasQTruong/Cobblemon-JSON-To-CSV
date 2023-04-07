@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shuckle",
+            "id": "shuckle-1",
             "pokemon": "shuckle",
             "type": "pokemon",
             "context": "grounded",

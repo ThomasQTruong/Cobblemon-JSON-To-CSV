@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "druddigon",
+            "id": "druddigon-1",
             "pokemon": "druddigon",
             "presets": [
                 "natural"

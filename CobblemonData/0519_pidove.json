@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pidove",
+            "id": "pidove-1",
             "pokemon": "pidove",
             "presets": [
                 "natural"

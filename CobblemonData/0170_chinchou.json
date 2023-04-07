@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "chinchou",
+            "id": "chinchou-1",
             "pokemon": "chinchou",
             "presets": [
                 "underwater"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "roggenrola",
+            "id": "roggenrola-1",
             "pokemon": "roggenrola",
             "presets": [
                 "natural"

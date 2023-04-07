@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "gigalith",
+            "id": "gigalith-1",
             "pokemon": "gigalith",
             "presets": [
                 "natural"

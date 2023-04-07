@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "reuniclus",
+            "id": "reuniclus-1",
             "pokemon": "reuniclus",
             "presets": [
                 "natural"

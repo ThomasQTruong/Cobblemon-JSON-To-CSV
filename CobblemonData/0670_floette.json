@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "floette",
+            "id": "floette-1",
             "pokemon": "floette",
             "presets": [
                 "natural"

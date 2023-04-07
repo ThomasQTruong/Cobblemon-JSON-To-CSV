@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "gligar",
+            "id": "gligar-1",
             "pokemon": "gligar",
             "presets": [
                 "natural"

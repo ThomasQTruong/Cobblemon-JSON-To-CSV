@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "sirfetchd",
-            "pokemon": "sirfetchd",
+            "pokemon": "sirfetch'd",
             "presets": [
                 "freshwater"
             ],

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "seismitoad",
+            "id": "seismitoad-1",
             "pokemon": "seismitoad",
             "presets": [
                 "underwater"

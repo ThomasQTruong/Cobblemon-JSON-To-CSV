@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "anorith",
+            "id": "anorith-1",
             "pokemon": "anorith",
             "type": "pokemon",
             "context": "grounded",

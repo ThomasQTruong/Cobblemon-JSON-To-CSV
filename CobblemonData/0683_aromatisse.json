@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "aromatisse",
+            "id": "aromatisse-1",
             "pokemon": "aromatisse",
             "presets": [
                 "natural"

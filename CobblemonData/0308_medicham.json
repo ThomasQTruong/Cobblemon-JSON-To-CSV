@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "medicham",
+            "id": "medicham-1",
             "pokemon": "medicham",
             "type": "pokemon",
             "context": "grounded",

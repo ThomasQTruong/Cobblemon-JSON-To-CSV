@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "drifblim",
+            "id": "drifblim-1",
             "pokemon": "drifblim",
             "presets": [
                 "natural"

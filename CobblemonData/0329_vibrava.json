@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "vibrava",
+            "id": "vibrava-1",
             "pokemon": "vibrava",
             "type": "pokemon",
             "context": "grounded",

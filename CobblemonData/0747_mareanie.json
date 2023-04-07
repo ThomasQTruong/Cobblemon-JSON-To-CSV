@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "mareanie",
+            "id": "mareanie-1",
             "pokemon": "mareanie",
             "presets": [
                 "underwater"

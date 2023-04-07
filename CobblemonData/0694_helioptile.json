@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "helioptile",
+            "id": "helioptile-1",
             "pokemon": "helioptile",
             "presets": [
                 "natural"

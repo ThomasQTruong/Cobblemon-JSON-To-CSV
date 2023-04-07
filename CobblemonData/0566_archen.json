@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "archen",
+            "id": "archen-1",
             "pokemon": "archen",
             "presets": [
                 "natural"

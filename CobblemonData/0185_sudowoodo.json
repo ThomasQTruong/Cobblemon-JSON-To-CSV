@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sudowoodo",
+            "id": "sudowoodo-1",
             "pokemon": "sudowoodo",
             "type": "pokemon",
             "context": "grounded",

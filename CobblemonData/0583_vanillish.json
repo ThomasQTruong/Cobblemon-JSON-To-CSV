@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "vanillish",
+            "id": "vanillish-1",
             "pokemon": "vanillish",
             "presets": [
                 "natural"

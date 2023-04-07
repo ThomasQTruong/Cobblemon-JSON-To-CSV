@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shinx",
+            "id": "shinx-1",
             "pokemon": "shinx",
             "presets": [
                 "natural"

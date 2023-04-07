@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "remoraid",
+            "id": "remoraid-1",
             "pokemon": "remoraid",
             "presets": [
                 "underwater"

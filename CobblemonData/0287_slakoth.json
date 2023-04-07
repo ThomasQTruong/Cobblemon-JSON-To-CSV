@@ -7,8 +7,7 @@
             "id": "slakoth-1",
             "pokemon": "slakoth",
             "presets": [
-                "natural",
-                "treetop"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",

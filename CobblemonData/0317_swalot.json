@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swalot",
+            "id": "swalot-1",
             "pokemon": "swalot",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "tyrunt",
+            "id": "tyrunt-1",
             "pokemon": "tyrunt",
             "presets": [
                 "natural"

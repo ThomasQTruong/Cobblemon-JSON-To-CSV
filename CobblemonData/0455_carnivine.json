@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "carnivine",
+            "id": "carnivine-1",
             "pokemon": "carnivine",
             "presets": [
                 "natural"

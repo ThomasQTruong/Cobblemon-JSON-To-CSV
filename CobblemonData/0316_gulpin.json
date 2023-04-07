@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "gulpin",
+            "id": "gulpin-1",
             "pokemon": "gulpin",
             "type": "pokemon",
             "context": "grounded",

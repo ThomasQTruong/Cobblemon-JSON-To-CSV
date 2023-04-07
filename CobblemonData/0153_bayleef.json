@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bayleef",
+            "id": "bayleef-1",
             "pokemon": "bayleef",
             "presets": [
                 "natural"

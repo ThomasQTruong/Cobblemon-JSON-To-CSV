@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ariados",
+            "id": "ariados-1",
             "pokemon": "ariados",
             "type": "pokemon",
             "context": "grounded",
@@ -28,7 +28,7 @@
             }
         },
         {
-            "id": "ariados",
+            "id": "ariados-2",
             "pokemon": "ariados",
             "type": "pokemon",
             "context": "grounded",

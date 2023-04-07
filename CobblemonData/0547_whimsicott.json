@@ -16,7 +16,7 @@
                 "biomes": [
                     "#cobblemon:is_floral"
                 ],
-		"timeRange": "day"
+		        "timeRange": "day"
             }
         }
     ]

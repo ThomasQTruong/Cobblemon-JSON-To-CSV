@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "metang",
+            "id": "metang-1",
             "pokemon": "metang",
             "type": "pokemon",
             "context": "grounded",

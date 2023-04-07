@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "grumpig",
+            "id": "grumpig-1",
             "pokemon": "grumpig",
             "type": "pokemon",
             "context": "grounded",

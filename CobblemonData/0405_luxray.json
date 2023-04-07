@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "luxray",
+            "id": "luxray-1",
             "pokemon": "luxray",
             "presets": [
                 "natural"

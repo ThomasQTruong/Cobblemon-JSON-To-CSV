@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "clawitzer",
+            "id": "clawitzer-1",
             "pokemon": "clawitzer",
             "presets": [
                 "underwater"

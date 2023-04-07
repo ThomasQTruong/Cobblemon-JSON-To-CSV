@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "smeargle",
+            "id": "smeargle-1",
             "pokemon": "smeargle",
             "presets": [
                 "urban"

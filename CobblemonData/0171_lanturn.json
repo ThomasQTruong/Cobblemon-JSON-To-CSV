@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "lanturn",
+            "id": "lanturn-1",
             "pokemon": "lanturn",
             "presets": [
                 "underwater"

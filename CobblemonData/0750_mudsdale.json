@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "mudsdale",
+            "id": "mudsdale-1",
             "pokemon": "mudsdale",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "keckleon",
+            "id": "keckleon-1",
             "pokemon": "keckleon",
             "type": "pokemon",
             "context": "grounded",

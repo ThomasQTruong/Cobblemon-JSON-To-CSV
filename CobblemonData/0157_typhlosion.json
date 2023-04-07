@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "typlosion",
-            "pokemon": "typlosion",
+            "id": "typhlosion-1",
+            "pokemon": "typhlosion",
             "presets": [
                 "natural"
             ],
@@ -21,8 +21,8 @@
             }
         },
         {
-            "id": "typlosion",
-            "pokemon": "typlosion",
+            "id": "typhlosion-2",
+            "pokemon": "typhlosion",
             "presets": [
                 "natural"
             ],

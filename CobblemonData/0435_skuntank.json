@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "skuntank",
+            "id": "skuntank-1",
             "pokemon": "skuntank",
             "presets": [
                 "natural"

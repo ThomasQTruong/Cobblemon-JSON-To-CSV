@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hoppip",
+            "id": "hoppip-1",
             "pokemon": "hoppip",
             "type": "pokemon",
             "context": "grounded",

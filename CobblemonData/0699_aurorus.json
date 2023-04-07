@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "aurorus",
+            "id": "aurorus-1",
             "pokemon": "aurorus",
             "presets": [
                 "natural"

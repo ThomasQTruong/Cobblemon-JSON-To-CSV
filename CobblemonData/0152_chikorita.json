@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "chikorita",
+            "id": "chikorita-1",
             "pokemon": "chikorita",
             "presets": [
                 "natural"

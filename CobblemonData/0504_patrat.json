@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "patrat",
+            "id": "patrat-1",
             "pokemon": "patrat",
             "presets": [
                 "natural"

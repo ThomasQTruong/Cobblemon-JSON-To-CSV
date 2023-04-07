@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "liepard",
+            "id": "liepard-1",
             "pokemon": "liepard",
             "presets": [
                 "urban"

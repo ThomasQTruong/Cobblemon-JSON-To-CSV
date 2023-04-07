@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "watchog",
+            "id": "watchog-1",
             "pokemon": "watchog",
             "presets": [
                 "natural"

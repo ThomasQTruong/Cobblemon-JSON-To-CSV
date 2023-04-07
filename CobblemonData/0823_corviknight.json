@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "corviknight-1",
+            "pokemon": "corviknight",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-55",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+		            "#cobblemon:is_hills",
+		            "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

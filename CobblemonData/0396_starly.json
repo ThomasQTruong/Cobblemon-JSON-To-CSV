@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "starly",
+            "id": "starly-1",
             "pokemon": "starly",
             "presets": [
                 "natural"

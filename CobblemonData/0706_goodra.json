@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "goodra",
+            "id": "goodra-1",
             "pokemon": "goodra",
             "presets": [
                 "natural"

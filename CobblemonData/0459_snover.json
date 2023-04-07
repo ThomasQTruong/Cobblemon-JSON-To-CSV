@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "snover",
+            "id": "snover-1",
             "pokemon": "snover",
             "type": "pokemon",
             "context": "grounded",

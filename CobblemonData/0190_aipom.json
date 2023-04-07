@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "aipom",
+            "id": "aipom-1",
             "pokemon": "aipom",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "krookodile",
+            "id": "krookodile-1",
             "pokemon": "krookodile",
             "presets": [
                 "natural"

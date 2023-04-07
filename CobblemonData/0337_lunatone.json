@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "lunatone",
+            "id": "lunatone-1",
             "pokemon": "lunatone",
             "type": "pokemon",
             "context": "grounded",
@@ -20,7 +20,7 @@
             }
         },
         {
-            "id": "lunatone",
+            "id": "lunatone-2",
             "pokemon": "lunatone",
             "type": "pokemon",
             "context": "grounded",
@@ -35,7 +35,7 @@
             }
         },
         {
-            "id": "lunatone",
+            "id": "lunatone-3",
             "pokemon": "lunatone",
             "type": "pokemon",
             "context": "grounded",

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "foongus",
+            "id": "foongus-1",
             "pokemon": "foongus",
             "presets": [
                 "natural"

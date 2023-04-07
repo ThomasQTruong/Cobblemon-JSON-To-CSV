@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "banette",
+            "id": "banette-1",
             "pokemon": "banette",
             "type": "pokemon",
             "context": "grounded",

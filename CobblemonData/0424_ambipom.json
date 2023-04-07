@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ambipom",
+            "id": "ambipom-1",
             "pokemon": "ambipom",
             "presets": [
                 "natural"

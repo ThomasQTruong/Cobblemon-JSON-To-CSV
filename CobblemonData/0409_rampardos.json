@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "rampardos",
+            "id": "rampardos-1",
             "pokemon": "rampardos",
             "presets": [
                 "natural"

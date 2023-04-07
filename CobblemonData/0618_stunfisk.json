@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "stunfisk",
+            "id": "stunfisk-1",
             "pokemon": "stunfisk",
             "presets": [
                 "underwater"

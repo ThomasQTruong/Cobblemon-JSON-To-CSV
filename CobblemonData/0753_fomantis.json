@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "fomantis",
+            "id": "fomantis-1",
             "pokemon": "fomantis",
             "presets": [
                 "natural"

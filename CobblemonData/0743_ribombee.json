@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ribombee",
+            "id": "ribombee-1",
             "pokemon": "ribombee",
             "presets": [
                 "natural"

@@ -4,22 +4,22 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "grappleoct",
-            "pokemon": "grappleoct",
+            "id": "gliscor-1",
+            "pokemon": "gliscor",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "35-50",
-            "weight": 0.5,
+            "level": "45-60",
+            "weight": 1.4,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_beach",
-                    "#minecraft:is_ocean"
-                ]
+                    "#cobblemon:is_badlands"
+                ],
+                "timeRange": "night"
             }
         }
     ]

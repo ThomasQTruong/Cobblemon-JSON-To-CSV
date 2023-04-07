@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "barboach",
+            "id": "barboach-1",
             "pokemon": "barboach",
             "presets": [
                 "underwater"

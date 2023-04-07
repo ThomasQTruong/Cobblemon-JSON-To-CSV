@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "phanpy",
+            "id": "phanpy-1",
             "pokemon": "phanpy",
             "type": "pokemon",
             "context": "grounded",

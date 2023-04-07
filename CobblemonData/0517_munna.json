@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "munna",
+            "id": "munna-1",
             "pokemon": "munna",
             "presets": [
                 "natural"

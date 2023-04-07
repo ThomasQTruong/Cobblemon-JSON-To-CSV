@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "toxicroak",
+            "id": "toxicroak-1",
             "pokemon": "toxicroak",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "glalie",
+            "id": "glalie-1",
             "pokemon": "glalie",
             "type": "pokemon",
             "context": "grounded",

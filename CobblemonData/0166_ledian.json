@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ledian",
+            "id": "ledian-1",
             "pokemon": "ledian",
             "type": "pokemon",
             "context": "grounded",

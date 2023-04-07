@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "karrablast",
+            "id": "karrablast-1",
             "pokemon": "karrablast",
             "presets": [
                 "natural"

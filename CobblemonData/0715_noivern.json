@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "noivern",
+            "id": "noivern-1",
             "pokemon": "noivern",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "houndour",
+            "id": "houndour-1",
             "pokemon": "houndour",
             "type": "pokemon",
             "context": "grounded",

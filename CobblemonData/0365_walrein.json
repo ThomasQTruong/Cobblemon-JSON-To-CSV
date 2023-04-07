@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "walrein",
+            "id": "walrein-1",
             "pokemon": "walrein",
             "type": "pokemon",
             "context": "grounded",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "walrein",
+            "id": "walrein-2",
             "pokemon": "walrein",
             "presets": [
                 "underwater"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "inkay",
+            "id": "inkay-1",
             "pokemon": "inkay",
             "presets": [
                 "underwater"

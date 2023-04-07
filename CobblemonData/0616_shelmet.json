@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shelmet",
+            "id": "shelmet-1",
             "pokemon": "shelmet",
             "presets": [
                 "natural"

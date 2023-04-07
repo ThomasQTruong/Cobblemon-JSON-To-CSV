@@ -18,10 +18,10 @@
                     "#cobblemon:is_caves",
                     "#cobblemon:is_nether"
                 ],
-				"neededNearbyBlocks": [
+                "neededNearbyBlocks": [
                     "minecraft:lantern"
                 ]
             }
-		}
+        }
     ]
 }

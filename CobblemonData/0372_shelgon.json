@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shelgon",
+            "id": "shelgon-1",
             "pokemon": "shelgon",
             "type": "pokemon",
             "context": "grounded",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "shelgon",
+            "id": "shelgon-2",
             "pokemon": "shelgon",
             "type": "pokemon",
             "context": "grounded",

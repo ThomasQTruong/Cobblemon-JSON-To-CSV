@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bagon",
+            "id": "bagon-1",
             "pokemon": "bagon",
             "type": "pokemon",
             "context": "grounded",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "bagon",
+            "id": "bagon-2",
             "pokemon": "bagon",
             "type": "pokemon",
             "context": "grounded",

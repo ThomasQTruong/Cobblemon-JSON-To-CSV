@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "stoutland",
+            "id": "stoutland-1",
             "pokemon": "stoutland",
             "presets": [
                 "urban"

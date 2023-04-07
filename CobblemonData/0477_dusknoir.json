@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "dusknoir",
+            "id": "dusknoir-1",
             "pokemon": "dusknoir",
             "presets": [
                 "underground"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "dusknoir",
+            "id": "dusknoir-2",
             "pokemon": "dusknoir",
             "type": "pokemon",
             "context": "grounded",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "id": "dusknoir",
+            "id": "dusknoir-3",
             "pokemon": "dusknoir",
             "type": "pokemon",
             "context": "grounded",

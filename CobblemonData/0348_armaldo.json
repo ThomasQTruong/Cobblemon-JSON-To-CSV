@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "armaldo",
+            "id": "armaldo-1",
             "pokemon": "armaldo",
             "type": "pokemon",
             "context": "grounded",

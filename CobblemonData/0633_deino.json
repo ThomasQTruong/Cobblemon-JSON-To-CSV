@@ -18,7 +18,7 @@
                 ]
             }
         },
-	{
+	    {
             "id": "deino-2",
             "pokemon": "deino",
             "type": "pokemon",
@@ -33,7 +33,7 @@
                 ]
             }
         },
-	{
+	    {
             "id": "deino-3",
             "pokemon": "deino",
             "type": "pokemon",
@@ -48,7 +48,7 @@
                 ]
             }
         },
-	{
+	    {
             "id": "deino-4",
             "pokemon": "deino",
             "type": "pokemon",

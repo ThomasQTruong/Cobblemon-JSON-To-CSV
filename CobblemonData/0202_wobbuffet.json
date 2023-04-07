@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "wobbuffet",
+            "id": "wobbuffet-1",
             "pokemon": "wobbuffet",
             "presets": [
                 "natural"

@@ -21,23 +21,6 @@
                     "#cobblemon:is_mushroom"
                 ]
             }
-        },
-        {
-            "id": "breloom-2",
-            "pokemon": "breloom",
-            "presets": [
-                "testpreset"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "50-100",
-            "weight": 100,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
         }
     ]
 }

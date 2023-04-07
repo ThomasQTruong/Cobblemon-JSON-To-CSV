@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "crabominable",
+            "id": "crabominable-1",
             "pokemon": "crabominable",
             "presets": [
                 "underwater"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "mantyke",
+            "id": "mantyke-1",
             "pokemon": "mantyke",
             "presets": [
                 "underwater"

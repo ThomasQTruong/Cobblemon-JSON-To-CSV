@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "frillish",
+            "id": "frillish-1",
             "pokemon": "frillish",
             "presets": [
                 "water_surface"

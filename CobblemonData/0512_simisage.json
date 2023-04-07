@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "simisage",
+            "id": "simisage-1",
             "pokemon": "simisage",
             "presets": [
                 "natural"

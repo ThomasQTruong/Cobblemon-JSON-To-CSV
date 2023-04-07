@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "froslass",
+            "id": "froslass-1",
             "pokemon": "froslass",
             "type": "pokemon",
             "context": "grounded",

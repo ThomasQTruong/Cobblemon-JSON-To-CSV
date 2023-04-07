@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "tynamo",
+            "id": "tynamo-1",
             "pokemon": "tynamo",
             "presets": [
                 "underwater"

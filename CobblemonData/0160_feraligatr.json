@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "feraligatr",
+            "id": "feraligatr-1",
             "pokemon": "feraligatr",
             "presets": [
                 "natural"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "feraligatr",
+            "id": "feraligatr-2",
             "pokemon": "feraligatr",
             "presets": [
                 "underwater"

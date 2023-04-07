@@ -15,15 +15,15 @@
             "level": "20-40",
             "weight": 3.0,
             "condition": {
-				"canSeeSky": true,
 				"biomes": [
                     "#cobblemon:is_temperate",
                     "#cobblemon:is_plains",
                     "#cobblemon:is_jungle",
                     "#cobblemon:is_spooky"
                 ],
-				"isRaining": false,
-				"timerange": "night"
+                "canSeeSky": true,
+                "isRaining": false,
+                "timerange": "night"
 			}
         },
         {
@@ -38,11 +38,11 @@
             "level": "20-40",
             "weight": 2.0,
             "condition": {
-				"canSeeSky": true,
 				"biomes": [
                     "#cobblemon:is_spooky"
                 ],
-				"isRaining": false
+                "canSeeSky": true,
+                "isRaining": false
 			}
         }
     ]

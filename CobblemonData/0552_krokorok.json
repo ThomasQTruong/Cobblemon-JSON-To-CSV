@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "krokorok",
+            "id": "krokorok-1",
             "pokemon": "krokorok",
             "presets": [
                 "natural"

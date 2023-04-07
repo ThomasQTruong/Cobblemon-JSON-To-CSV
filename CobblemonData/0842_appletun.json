@@ -1,0 +1,29 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "appletun-1",
+            "pokemon": "appletun",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-50",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:oak_log",
+		    "minecraft:oak_leaves"],
+		"timeRange": "day"
+            }
+        }
+    ]
+}

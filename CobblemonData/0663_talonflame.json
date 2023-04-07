@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "talonflame",
+            "id": "talonflame-1",
             "pokemon": "talonflame",
             "presets": [
                 "natural"

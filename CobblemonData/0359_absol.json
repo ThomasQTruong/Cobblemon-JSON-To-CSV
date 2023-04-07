@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "absol",
+            "id": "absol-1",
             "pokemon": "absol",
             "type": "pokemon",
             "context": "grounded",

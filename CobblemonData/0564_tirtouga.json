@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "tirtouga",
+            "id": "tirtouga-1",
             "pokemon": "tirtouga",
             "presets": [
                 "natural"

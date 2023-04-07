@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "quilava",
+            "id": "quilava-1",
             "pokemon": "quilava",
             "presets": [
                 "natural"
@@ -21,7 +21,7 @@
             }
         },
         {
-            "id": "quilava",
+            "id": "quilava-2",
             "pokemon": "quilava",
             "presets": [
                 "natural"

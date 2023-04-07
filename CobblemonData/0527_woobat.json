@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "woobat",
+            "id": "woobat-1",
             "pokemon": "woobat",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "glameow",
+            "id": "glameow-1",
             "pokemon": "glameow",
             "presets": [
                 "urban"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "binacle",
+            "id": "binacle-1",
             "pokemon": "binacle",
             "presets": [
                 "underwater"

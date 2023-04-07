@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pansage",
+            "id": "pansage-1",
             "pokemon": "pansage",
             "presets": [
                 "natural"

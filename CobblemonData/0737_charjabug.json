@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "charjabug",
+            "id": "charjabug-1",
             "pokemon": "charjabug",
             "presets": [
                 "natural"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "spinarak",
+            "id": "spinarak-1",
             "pokemon": "spinarak",
             "type": "pokemon",
             "context": "grounded",
@@ -28,7 +28,7 @@
             }
         },
         {
-            "id": "spinarak",
+            "id": "spinarak-2",
             "pokemon": "spinarak",
             "type": "pokemon",
             "context": "grounded",

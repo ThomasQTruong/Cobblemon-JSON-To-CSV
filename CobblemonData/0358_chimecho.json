@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "chimecho",
+            "id": "chimecho-1",
             "pokemon": "chimecho",
             "type": "pokemon",
             "context": "grounded",

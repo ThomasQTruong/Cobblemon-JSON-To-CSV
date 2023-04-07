@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "alomomola",
+            "id": "alomomola-1",
             "pokemon": "alomomola",
             "presets": [
                 "water_surface"

@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sealeo",
+            "id": "sealeo-1",
             "pokemon": "sealeo",
             "type": "pokemon",
             "context": "grounded",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "id": "sealeo",
+            "id": "sealeo-2",
             "pokemon": "sealeo",
             "presets": [
                 "underwater"

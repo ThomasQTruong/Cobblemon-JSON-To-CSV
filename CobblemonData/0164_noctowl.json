@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "noctowl",
+            "id": "noctowl-1",
             "pokemon": "noctowl",
             "type": "pokemon",
             "context": "grounded",

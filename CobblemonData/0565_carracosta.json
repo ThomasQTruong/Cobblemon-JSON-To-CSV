@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "carracosta",
+            "id": "carracosta-1",
             "pokemon": "carracosta",
             "presets": [
                 "natural"

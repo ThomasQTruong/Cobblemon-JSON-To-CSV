@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "skiploom",
+            "id": "skiploom-1",
             "pokemon": "skiploom",
             "type": "pokemon",
             "context": "grounded",

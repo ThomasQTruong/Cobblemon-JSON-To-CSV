@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bisharp",
+            "id": "bisharp-1",
             "pokemon": "bisharp",
             "presets": [
                 "natural"
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "bisharp",
+            "id": "bisharp-2",
             "pokemon": "bisharp",
             "presets": [
                 "natural"

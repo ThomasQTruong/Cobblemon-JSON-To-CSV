@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sunkern",
+            "id": "sunkern-1",
             "pokemon": "sunkern",
             "type": "pokemon",
             "context": "grounded",
