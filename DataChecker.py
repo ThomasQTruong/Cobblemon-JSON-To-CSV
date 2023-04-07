@@ -2,38 +2,33 @@ import os, json
 
 def main():
   # Directory to read data files from.
-  QALPS_DIR = "./QALPS/"
+  DATA_DIR = "./CobblemonData/"
 
   # Gets and sorts directory.
-  sortedDirectory = sorted(os.listdir(QALPS_DIR))
+  sortedDirectory = sorted(os.listdir(DATA_DIR))
+
+  # All of the possible conditions in pData["spawns"]["conditions"]
+  possible_conditions = ["dimensions", "biomes", "moonPhase", "canSeeSky", "minX", "minY", "minZ", "maxX",
+                         "maxY", "maxZ", "minLight", "maxLight", "timeRange", "isRaining", "isThundering",
+                         "minWidth", "maxWidth", "minHeight", "maxHeight", "neededNearbyBlocks",
+                         "neededBaseBlocks", "minDepth", "maxDepth", "fluidIsSource", "fluidBlock"]
 
   # For every fileName in directory.
   for fileName in sortedDirectory:
-    pFile = open(QALPS_DIR + fileName, "r")
+    pFile = open(DATA_DIR + fileName, "r")
     # Obtain json data.
     pData = json.load(pFile)
 
-    for spawn in pData["spawns"]:
-      # Check for misplaced conditions.
-      if ("biomes" in spawn):
-        print(fileName + ": biomes outside of condition.")
-      if ("timeRange" in spawn):
-        print(fileName + ": timeRange outside of condition.")
-      if ("isRaining" in spawn):
-        print(fileName + ": isRaining outside of condition.")
-      if ("minY" in spawn):
-        print(fileName + ": minY outside of condition.")
-      if ("maxY" in spawn):
-        print(fileName + ": maxY outside of condition.")
-      if ("minLight" in spawn):
-        print(fileName + ": minLight outside of condition.")
-      if ("neededNearbyBlocks" in spawn):
-        print(fileName + ": neededNearbyBlocks outside of condition.")
-      if ("canSeeSky" in spawn):
-        print(fileName + ": canSeeSky outside of condition.")
+    # For every condition in possible_conditions.
+    for condition in possible_conditions:
+      # If condition is outside of pData["spawns"]["conditions"].
+      if (condition in pData["spawns"][0]):
+        # Print error with file name and condition.
+        print(f"ERROR: {fileName}: {condition} outside of condition.")
 
     # Close file.
     pFile.close()
+    exit()
 
 
 if __name__ == "__main__":
