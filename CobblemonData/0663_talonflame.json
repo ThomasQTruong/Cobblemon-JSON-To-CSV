@@ -1,0 +1,28 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "talonflame",
+            "pokemon": "talonflame",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-51",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_taiga"
+                ],
+                "isRaining": false
+            }
+        }
+    ]
+}

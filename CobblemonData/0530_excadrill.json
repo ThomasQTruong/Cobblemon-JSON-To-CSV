@@ -1,0 +1,69 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "excadrill-1",
+            "pokemon": "excadrill",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "31-50",
+            "weight": 5.0,
+            "condition": {
+				"biomes": [
+                    "#cobblemon:is_cave"
+                ]
+			}
+        },
+        {
+            "id": "excadrill-2",
+            "pokemon": "excadrill",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "31-50",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_temperate",
+					"#cobblemon:is_plains"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:dirt"
+                ]
+            }
+        },
+        {
+            "id": "excadrill-3",
+            "pokemon": "excadrill",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-50",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:rail",
+                    "minecraft:oak_planks",
+                    "minecraft:dirt"
+                ]
+            }
+        }
+    ]
+}

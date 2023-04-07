@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+	 {
+            "id": "ferrothorn-1",
+            "pokemon": "ferrothorn",
+	    "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "41-53",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_forest"					
+                ]
+            }
+	},
+	 {
+            "id": "ferrothorn-2",
+            "pokemon": "ferrothorn",
+	    "presets": [
+                "underground"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "41-53",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cave",
+		    "#cobblemon:is_lush"					
+                ]
+            }
+        }
+    ]
+}

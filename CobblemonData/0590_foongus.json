@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "foongus",
+            "pokemon": "foongus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-43",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

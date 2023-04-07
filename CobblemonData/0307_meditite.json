@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-40",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills",
+					"#cobblemon:is_snowy"
+                ]
+            }
+        },
+        {
+            "id": "meditite-2",
+            "pokemon": "meditite",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-40",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:sweet_berry_bush"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bronzor",
+            "pokemon": "bronzor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-32",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_peak"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_abyss",
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        }
+    ]
+}

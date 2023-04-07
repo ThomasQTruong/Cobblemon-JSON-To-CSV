@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "relicanth",
+            "pokemon": "relicanth",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "20-48",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep"
+                ]
+            }
+        }
+    ]
+}

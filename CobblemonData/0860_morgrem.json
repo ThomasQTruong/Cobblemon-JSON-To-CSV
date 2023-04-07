@@ -1,0 +1,27 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "morgrem",
+            "pokemon": "morgrem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-40",
+            "weight": 0.54,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_magical",
+                    "minecraft:warped_forest"
+                ],
+		"timeRange": "night"
+            }
+        }
+    ]
+}

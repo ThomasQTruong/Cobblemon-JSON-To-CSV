@@ -1,0 +1,28 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fletchling",
+            "pokemon": "fletchling",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-21",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_sky",
+                    "#cobblemon:is_taiga"
+                ],
+                "isRaining": false
+            }
+        }
+    ]
+}

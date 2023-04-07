@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "conkeldurr-1",
+            "pokemon": "conkeldurr",
+            "presets": [
+		"urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41-50",
+            "weight": 0.06,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_highlands",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "musharna",
+            "pokemon": "musharna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "timeRange": "night",
+                "isRaining": false
+            }
+        }
+    ]
+}

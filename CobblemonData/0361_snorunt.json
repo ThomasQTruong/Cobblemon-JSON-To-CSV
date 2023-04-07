@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snorunt",
+            "pokemon": "snorunt",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-41",
+            "weight": 8.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_glacial"
+                ]
+            }
+        }
+    ]
+}

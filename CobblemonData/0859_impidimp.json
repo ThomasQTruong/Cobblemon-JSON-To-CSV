@@ -1,0 +1,27 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "impidimp",
+            "pokemon": "impidimp",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-30",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_magical",
+                    "minecraft:warped_forest"
+                ],
+		"timeRange": "night"
+            }
+        }
+    ]
+}

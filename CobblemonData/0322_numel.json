@@ -1,0 +1,38 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "numel",
+            "pokemon": "numel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-30",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_desert"
+                ],
+                "timeRange": "day"
+            }
+        },
+        {
+            "id": "numel",
+            "pokemon": "numel",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-30",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "minecraft:nether_wastes"
+                ]
+            }
+        }
+    ]
+}

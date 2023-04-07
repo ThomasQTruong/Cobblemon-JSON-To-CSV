@@ -1,0 +1,30 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "inkay",
+            "pokemon": "inkay",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-35",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        }
+    ]
+}

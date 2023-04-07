@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jellicent",
+            "pokemon": "jellicent",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "40-60",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

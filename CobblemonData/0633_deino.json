@@ -1,0 +1,67 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deino-1",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-30",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cave"					
+                ]
+            }
+        },
+	{
+            "id": "deino-2",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-30",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cave"				
+                ]
+            }
+        },
+	{
+            "id": "deino-3",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-30",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"					
+                ]
+            }
+        },
+	{
+            "id": "deino-4",
+            "pokemon": "deino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "12-30",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_highlands"					
+                ]
+            }
+        }
+    ]
+}

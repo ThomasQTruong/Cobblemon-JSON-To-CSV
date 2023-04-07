@@ -1,0 +1,25 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cursola",
+            "pokemon": "cursola",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "rare",
+            "level": "40-55",
+            "weight": 0.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

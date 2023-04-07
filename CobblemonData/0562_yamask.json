@@ -1,0 +1,133 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "yamask-1",
+            "pokemon": "yamask",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-27",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:chiseled_red_sandstone",
+					"minecraft:chiseled_sandstone",
+					"minecraft:cut_red_sandstone",
+					"minecraft:cut_red_sandstone_slab",
+                    "minecraft:cut_sandstone",
+					"minecraft:cut_sandstone_slab",
+					"minecraft:red_sandstone_slab",
+					"minecraft:red_sandstone_stairs",
+					"minecraft:red_sandstone_wall",
+                    "minecraft:sandstone_stairs",
+					"minecraft:sandstone_wall",
+					"minecraft:smooth_red_sandstone",
+					"minecraft:smooth_red_sandstone_slab",
+					"minecraft:smooth_red_sandstone_stairs",
+					"minecraft:smooth_sandstone",
+					"minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_sandstone_stairs"
+                ]
+            }
+        },
+        {
+            "id": "yamask-2",
+            "pokemon": "yamask",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:chiseled_red_sandstone",
+					"minecraft:chiseled_sandstone",
+					"minecraft:cut_red_sandstone",
+					"minecraft:cut_red_sandstone_slab",
+                    "minecraft:cut_sandstone",
+					"minecraft:cut_sandstone_slab",
+					"minecraft:red_sandstone_slab",
+					"minecraft:red_sandstone_stairs",
+					"minecraft:red_sandstone_wall",
+                    "minecraft:sandstone_stairs",
+					"minecraft:sandstone_wall",
+					"minecraft:smooth_red_sandstone",
+					"minecraft:smooth_red_sandstone_slab",
+					"minecraft:smooth_red_sandstone_stairs",
+					"minecraft:smooth_sandstone",
+					"minecraft:smooth_sandstone_slab",
+                    "minecraft:smooth_sandstone_stairs"
+                ]
+            }
+        },
+        {
+            "id": "yamask-galarian-1",
+            "pokemon": "yamask galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:chiseled_stone_bricks",
+                    "minecraft:stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:stone_brick_stairs"
+                ]
+            }
+        },
+        {
+            "id": "yamask-galarian-2",
+            "pokemon": "yamask galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "34-48",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+				"neededNearbyBlocks": [
+                    "minecraft:chiseled_stone_bricks",
+                    "minecraft:stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:stone_brick_slab",
+                    "minecraft:stone_brick_stairs"
+                ]
+            }
+        }
+    ]
+}

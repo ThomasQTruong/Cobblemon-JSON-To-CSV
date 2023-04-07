@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "binacle",
+            "pokemon": "binacle",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "5-43",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

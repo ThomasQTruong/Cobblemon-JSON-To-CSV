@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "audino-1",
+            "pokemon": "audino",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-48",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}

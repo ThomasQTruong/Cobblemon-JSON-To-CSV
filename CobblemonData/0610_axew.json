@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "axew-1",
+            "pokemon": "axew",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-24",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_cave"					
+                ]
+            }
+        },
+	           {
+            "id": "axew-2",
+            "pokemon": "axew",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-24",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cave"					
+                ]
+            }
+        },
+	            {
+            "id": "axew-3",
+            "pokemon": "axew",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-24",
+            "weight": 5.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"				
+                ]
+            }
+        }
+    ]
+}
