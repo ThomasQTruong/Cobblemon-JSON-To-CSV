@@ -12,11 +12,11 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 152,Chikorita,floral,,,any,clear,grounded,natural,,ultra-rare,9.0,5,32,true
 153,Bayleef,floral,,,any,clear,grounded,natural,,ultra-rare,0.9,16,40,true
 154,Meganium,floral,,,any,clear,grounded,natural,,ultra-rare,0.1,32,52,true
-155,Cyndaquil,crimson_forest,,,any,any,grounded,natural,,ultra-rare,9.0,5,31,any
+155,Cyndaquil,crimson_forest,,,any,any,grounded,natural,,ultra-rare,9.0,5,31,ANY
 155,Cyndaquil,temperate,spooky,,any,clear,grounded,natural,,ultra-rare,9.0,5,31,true
-156,Quilava,crimson_forest,,,any,any,grounded,natural,,ultra-rare,0.9,17,40,any
+156,Quilava,crimson_forest,,,any,any,grounded,natural,,ultra-rare,0.9,17,40,ANY
 156,Quilava,temperate,spooky,,any,clear,grounded,natural,,ultra-rare,0.9,17,40,true
-157,Typhlosion,crimson_forest,,,any,any,grounded,natural,,ultra-rare,0.1,36,53,any
+157,Typhlosion,crimson_forest,,,any,any,grounded,natural,,ultra-rare,0.1,36,53,ANY
 157,Typhlosion,temperate,spooky,,any,clear,grounded,natural,,ultra-rare,0.1,36,53,true
 158,Totodile,swamp,,,any,any,grounded,natural,,ultra-rare,9.0,5,31,true
 158,Totodile,swamp,,,any,any,submerged,underwater,,ultra-rare,9.0,5,31,true
@@ -68,8 +68,8 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 225,Delibird,peak,,,day,any,grounded,,,rare,10.0,5,33,true
 226,Mantine,lukewarm,,,any,any,submerged,underwater,,uncommon,1.0,35,48,true
 227,Skarmory,"sandy, sky",,,day,any,grounded,,,rare,10.0,20,46,true
-228,Houndour,nether,,,any,any,grounded,,,uncommon,9.0,8,33,any
-229,Houndoom,nether,,,any,any,grounded,,,uncommon,1.0,24,50,any
+228,Houndour,nether,,,any,any,grounded,,,uncommon,9.0,8,33,ANY
+229,Houndoom,nether,,,any,any,grounded,,,uncommon,1.0,24,50,ANY
 231,Phanpy,savanna,,,any,any,grounded,,,common,5.4,10,33,true
 232,Donphan,savanna,,,any,any,grounded,,,common,0.6,25,50,true
 235,Smeargle,overworld,,,any,any,grounded,urban,,rare,10.0,11,25,true
@@ -119,10 +119,10 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 284,Masquerain,"forest, plains, river",,,any,clear,grounded,"natural, freshwater",neededNearbyBlocks = water,common,7.0,22,45,true
 285,Shroomish,"forest, mushroom",,,any,any,grounded,natural,,common,3,5,30,true
 286,Breloom,"forest, mushroom",,,any,any,grounded,natural,,uncommon,3,23,45,true
-287,Slakoth,"forest, jungle",,,any,any,grounded,natural,,uncommon,5.0,5,20,any
-288,Vigoroth,"forest, jungle, plains",,,any,any,grounded,natural,,uncommon,7.0,18,40,any
-289,Slaking,"forest, jungle, plains",,,any,any,grounded,natural,,uncommon,1.0,36,60,any
-290,Nincada,"temperate, plains, jungle",,,any,any,grounded,natural,,uncommon,5.0,5,20,any
+287,Slakoth,"forest, jungle",,,any,any,grounded,natural,,uncommon,5.0,5,20,ANY
+288,Vigoroth,"forest, jungle, plains",,,any,any,grounded,natural,,uncommon,7.0,18,40,ANY
+289,Slaking,"forest, jungle, plains",,,any,any,grounded,natural,,uncommon,1.0,36,60,ANY
+290,Nincada,"temperate, plains, jungle",,,any,any,grounded,natural,,uncommon,5.0,5,20,ANY
 291,Ninjask,"temperate, plains, jungle",,,any,clear,grounded,natural,,uncommon,2.0,20,40,true
 292,Shedinja,"temperate, plains, jungle, spooky",,,any,clear,grounded,natural,,uncommon,3.0,20,40,true
 292,Shedinja,spooky,,,any,clear,grounded,natural,,common,2.0,20,40,true
@@ -133,14 +133,14 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 300,Skitty,"forest, plains, desert",,,any,any,grounded,,"neededNearbyBlocks = oak_door, spruce_door, acacia_door, chest",uncommon,5,1,15,false
 301,Delcatty,"plains, forest, desert",,,night,any,grounded,,"neededNearbyBlocks = grass, tallgrass, oak_log",uncommon,5,10,30,true
 301,Delcatty,"forest, plains, desert",,,any,any,grounded,,"neededNearbyBlocks = oak_door, spruce_door, acacia_door, chest",uncommon,7,10,30,false
-304,Aron,cave,,,any,any,grounded,natural,,uncommon,7.0,5,25,any
-304,Aron,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore",common,10.0,5,25,any
+304,Aron,cave,,,any,any,grounded,natural,,uncommon,7.0,5,25,ANY
+304,Aron,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore",common,10.0,5,25,ANY
 304,Aron,overworld,,,any,any,grounded,natural,"neededNearbyBlocks = rail, iron_trapdoor, create:track",uncommon,20.0,5,25,true
-305,Lairon,cave,,,any,any,grounded,natural,,uncommon,2.0,32,50,any
-305,Lairon,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore, water",uncommon,20.0,32,50,any
+305,Lairon,cave,,,any,any,grounded,natural,,uncommon,2.0,32,50,ANY
+305,Lairon,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore, water",uncommon,20.0,32,50,ANY
 305,Lairon,overworld,,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore, iron_block",uncommon,10.0,32,50,true
-306,Aggron,cave,,,any,any,grounded,natural,,rare,2.0,42,60,any
-306,Aggron,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore, water",rare,2.0,42,60,any
+306,Aggron,cave,,,any,any,grounded,natural,,rare,2.0,42,60,ANY
+306,Aggron,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = iron_ore, deepslate_iron_ore, water",rare,2.0,42,60,ANY
 306,Aggron,mountain,,,any,any,grounded,natural,"maxY = -50, neededNearbyBlocks = diamond_ore, bedrock",ultra-rare,100.0,70,75,false
 307,Meditite,"forest, hills, snowy",,,any,any,grounded,natural,,uncommon,5,5,40,true
 307,Meditite,overworld,,,any,any,grounded,,neededNearbyBlocks = :sweet_berry_bush,common,9.0,10,40,true
@@ -153,9 +153,9 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 316,Gulpin,swamp,,,any,any,grounded,,,common,2,10,30,true
 317,Swalot,swamp,,,any,any,grounded,,,common,1,26,47,true
 322,Numel,"badlands, desert",,,day,any,grounded,,,common,4,12,30,true
-322,Numel,nether_wastes,,,any,any,grounded,,,common,2,12,30,any
+322,Numel,nether_wastes,,,any,any,grounded,,,common,2,12,30,ANY
 323,Camerupt,"badlands, desert",,,day,any,grounded,,,common,0.01,33,46,true
-323,Camerupt,nether_wastes,,,any,any,grounded,,,common,0.01,33,46,any
+323,Camerupt,nether_wastes,,,any,any,grounded,,,common,0.01,33,46,ANY
 325,Spoink,hills,,,any,any,grounded,,,common,1,10,33,true
 326,Grumpig,hills,,,any,any,grounded,,,uncommon,1,32,47,true
 328,Trapinch,desert,,,any,any,grounded,,,uncommon,5,16,34,true
@@ -196,10 +196,10 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 353,Shuppet,spooky,,,night,any,grounded,,,common,5.0,13,36,true
 354,Banette,spooky,,,night,any,grounded,,,common,0.01,37,45,true
 355,Duskull,abyss,,,any,any,grounded,underground,,uncommon,5.4,12,36,false
-355,Duskull,soul_sand_valley,,,any,any,grounded,,,common,2.0,12,36,any
+355,Duskull,soul_sand_valley,,,any,any,grounded,,,common,2.0,12,36,ANY
 355,Duskull,spooky,,,night,any,grounded,,,common,2.0,12,36,true
 356,Dusclops,abyss,,,any,any,grounded,underground,,uncommon,0.6,37,45,false
-356,Dusclops,soul_sand_valley,,,any,any,grounded,,,rare,2.0,37,45,any
+356,Dusclops,soul_sand_valley,,,any,any,grounded,,,rare,2.0,37,45,ANY
 356,Dusclops,spooky,,,night,any,grounded,,,rare,2.0,37,45,true
 357,Tropius,jungle,,,any,any,grounded,natural,,common,2,5,45,true
 358,Chimecho,"magical, mountain, spooky",,,night,any,grounded,,,uncommon,0.6,29,45,true
@@ -216,16 +216,16 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 366,Clamperl,deep,,,any,any,seafloor,underwater,,uncommon,9.0,15,34,true
 367,Huntail,deep,,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
 368,Gorebyss,deep,,,any,any,submerged,underwater,,uncommon,2.0,35,48,true
-369,Relicanth,deep,,,any,any,submerged,underwater,,rare,10.0,20,48,any
+369,Relicanth,deep,,,any,any,submerged,underwater,,rare,10.0,20,48,ANY
 371,Bagon,dripstone,,,any,any,grounded,,,ultra-rare,9.0,15,30,true
 371,Bagon,dripstone,,,any,any,grounded,,,rare,3.0,15,30,false
 372,Shelgon,dripstone,,,any,any,grounded,,,ultra-rare,5.0,30,42,true
 372,Shelgon,dripstone,,,any,any,grounded,,,rare,2.0,30,42,false
 373,Salamence,"dripstone, mountain, sky",freezing,,any,any,grounded,,,ultra-rare,0.05,50,60,true
 373,Salamence,dripstone,,,any,any,grounded,,,rare,0.01,50,60,false
-374,Beldum,mountain,,,any,any,grounded,,,rare,9.0,5,30,any
-375,Metang,mountain,,,any,any,grounded,,,ultra-rare,1.0,20,44,any
-376,Metagross,mountain,,,any,any,grounded,,,ultra-rare,0.01,45,60,any
+374,Beldum,mountain,,,any,any,grounded,,,rare,9.0,5,30,ANY
+375,Metang,mountain,,,any,any,grounded,,,ultra-rare,1.0,20,44,ANY
+376,Metagross,mountain,,,any,any,grounded,,,ultra-rare,0.01,45,60,ANY
 387,Turtwig,forest,"snowy, taiga, freezing","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch, wheat, beetroots, carrots, potatoes, melon_stem, attached_melon_stem, pumpkin_stem, attached_pumpkin_stem",day,any,grounded,,"maxZ = 0, neededNearbyBlocks = oak_sapling, spruce_sapling, birch_sapling, jungle_sapling, acacia_sapling, dark_oak_sapling, neededBaseBlocks = farmland",common,500.0,5,15,true
 388,Grotle,forest,"snowy, taiga, freezing","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,any,grounded,,"maxZ = 0, neededNearbyBlocks = oak_sapling, spruce_sapling, birch_sapling, jungle_sapling, acacia_sapling, dark_oak_sapling, neededBaseBlocks = farmland",uncommon,250.0,20,25,true
 389,Torterra,forest,"snowy, taiga, freezing","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,any,grounded,,"maxZ = 0, neededNearbyBlocks = oak_sapling, spruce_sapling, birch_sapling, jungle_sapling, acacia_sapling, dark_oak_sapling, neededBaseBlocks = farmland",uncommon,250.0,35,45,true
@@ -277,7 +277,7 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 468,Togekiss,"floral, magical, sky","plains, spooky",,day,clear,grounded,,,ultra-rare,0.9,45,60,true
 472,Gliscor,badlands,,,night,any,grounded,natural,,rare,1.4,45,60,true
 477,Dusknoir,abyss,,,any,any,grounded,underground,,uncommon,0.05,46,52,false
-477,Dusknoir,soul_sand_valley,,,any,any,grounded,,,rare,9.0,46,52,any
+477,Dusknoir,soul_sand_valley,,,any,any,grounded,,,rare,9.0,46,52,ANY
 477,Dusknoir,spooky,,,night,any,grounded,,,rare,9.0,46,52,true
 478,Froslass,glacial,,,any,rain,grounded,,,rare,9.0,42,48,true
 495,Snivy,jungle,,"fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,clear,grounded,,"minZ = 0, neededNearbyBlocks = azalea, neededBaseBlocks = podzol",common,500.0,5,15,true
@@ -314,11 +314,11 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 526,Gigalith,mountain,,,any,any,grounded,natural,,rare,4.0,24,60,true
 527,Woobat,jungle,,,night,clear,grounded,natural,,common,9.0,5,30,true
 528,Swoobat,jungle,,,night,clear,grounded,natural,,ultra-rare,9.0,40,50,true
-529,Drilbur,cave,,,any,any,grounded,natural,,uncommon,7.0,5,35,any
-529,Drilbur,"temperate, plains",,,any,any,grounded,natural,"neededNearbyBlocks = farmland, dirt",rare,4.0,5,35,any
+529,Drilbur,cave,,,any,any,grounded,natural,,uncommon,7.0,5,35,ANY
+529,Drilbur,"temperate, plains",,,any,any,grounded,natural,"neededNearbyBlocks = farmland, dirt",rare,4.0,5,35,ANY
 529,Drilbur,overworld,,,any,any,grounded,natural,"neededNearbyBlocks = rail, oak_planks, dirt",common,5.0,5,35,false
-530,Excadrill,cave,,,any,any,grounded,natural,,rare,5.0,31,50,any
-530,Excadrill,"temperate, plains",,,any,any,grounded,natural,"neededNearbyBlocks = farmland, dirt",rare,1.0,31,50,any
+530,Excadrill,cave,,,any,any,grounded,natural,,rare,5.0,31,50,ANY
+530,Excadrill,"temperate, plains",,,any,any,grounded,natural,"neededNearbyBlocks = farmland, dirt",rare,1.0,31,50,ANY
 530,Excadrill,overworld,,,any,any,grounded,natural,"neededNearbyBlocks = rail, oak_planks, dirt",common,1.0,31,50,false
 531,Audino,"floral, magical, plains",,,any,any,grounded,,,uncommon,10,20,48,true
 532,Timburr,"highlands, hills, mountain, plains",,,any,any,grounded,urban,,common,5.4,12,30,true
@@ -332,9 +332,9 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 540,Sewaddle,forest,spooky,,day,any,grounded,natural,,uncommon,9.0,5,30,true
 541,Swadloon,forest,spooky,,day,any,grounded,natural,,uncommon,1.0,25,40,true
 542,Leavanny,forest,spooky,,day,any,grounded,natural,,ultra-rare,5.0,40,60,true
-543,Venipede,temperate,,,any,any,grounded,natural,,uncommon,4.0,5,22,any
-544,Whirlipede,temperate,,,any,any,grounded,natural,,uncommon,0.05,22,35,any
-545,Scolipede,temperate,,,any,any,grounded,natural,,rare,4.0,30,60,any
+543,Venipede,temperate,,,any,any,grounded,natural,,uncommon,4.0,5,22,ANY
+544,Whirlipede,temperate,,,any,any,grounded,natural,,uncommon,0.05,22,35,ANY
+545,Scolipede,temperate,,,any,any,grounded,natural,,rare,4.0,30,60,ANY
 546,Cottonee,floral,,,day,any,grounded,,,uncommon,9,5,25,true
 547,Whimsicott,floral,,,day,any,grounded,,,uncommon,0.1,25,40,true
 548,Petilil,floral,,,day,any,grounded,,,uncommon,9,13,27,true
@@ -378,13 +378,13 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 592,Frillish,ocean,,,night,any,surface,water_surface,,common,9.0,5,45,true
 593,Jellicent,ocean,,,night,any,surface,water_surface,,rare,9.0,40,60,true
 594,Alomomola,ocean,,,day,any,surface,water_surface,,uncommon,5.0,15,40,true
-597,Ferroseed,forest,,,any,any,grounded,natural,,uncommon,9,15,25,any
-597,Ferroseed,cave,,,any,any,grounded,,,rare,5.4,15,25,any
-598,Ferrothorn,forest,,,any,any,grounded,natural,,uncommon,0.1,41,53,any
+597,Ferroseed,forest,,,any,any,grounded,natural,,uncommon,9,15,25,ANY
+597,Ferroseed,cave,,,any,any,grounded,,,rare,5.4,15,25,ANY
+598,Ferrothorn,forest,,,any,any,grounded,natural,,uncommon,0.1,41,53,ANY
 598,Ferrothorn,"cave, lush",,,any,any,grounded,underground,,ultra-rare,0.5,41,53,false
-602,Tynamo,ocean,,,any,any,submerged,underwater,,uncommon,7.0,5,42,any
-603,Eelektrik,ocean,,,any,any,submerged,underwater,,uncommon,1.0,39,50,any
-604,Eelektross,ocean,,,any,any,submerged,underwater,,rare,1.0,45,60,any
+602,Tynamo,ocean,,,any,any,submerged,underwater,,uncommon,7.0,5,42,ANY
+603,Eelektrik,ocean,,,any,any,submerged,underwater,,uncommon,1.0,39,50,ANY
+604,Eelektross,ocean,,,any,any,submerged,underwater,,rare,1.0,45,60,ANY
 607,Litwick,"spooky, caves, nether",,,any,any,grounded,,neededNearbyBlocks = torch,uncommon,9,5,25,false
 608,Lampent,"spooky, caves, nether",,,any,any,grounded,,neededNearbyBlocks = lantern,rare,1,20,32,false
 609,Chandelure,"spooky, caves, nether",,,any,any,grounded,,neededNearbyBlocks = soul_lantern,ultra-rare,1,20,32,false
@@ -435,8 +435,8 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 656,Froakie,jungle,freezing,"grass, grass_block",day,any,grounded,,"minZ = 0, neededNearbyBlocks = water, neededBaseBlocks = mud",common,500.0,5,15,true
 657,Frogadier,jungle,freezing,"grass, grass_block",day,any,grounded,,"minZ = 0, neededNearbyBlocks = water, neededBaseBlocks = mud",uncommon,250.0,20,25,true
 658,Greninja,jungle,freezing,"grass, grass_block",day,any,grounded,,"minZ = 0, neededNearbyBlocks = water, neededBaseBlocks = mud",uncommon,250.0,35,45,true
-659,Bunnelby,grassland,,,any,any,grounded,natural,,common,6.0,5,25,any
-660,Diggersby,grassland,,,any,any,grounded,natural,,common,1.0,20,40,any
+659,Bunnelby,grassland,,,any,any,grounded,natural,,common,6.0,5,25,ANY
+660,Diggersby,grassland,,,any,any,grounded,natural,,common,1.0,20,40,ANY
 661,Fletchling,"forest, sky, taiga",,,any,clear,grounded,natural,,common,7.0,5,21,true
 662,Fletchinder,"forest, sky, taiga",,,any,clear,grounded,natural,,uncommon,5.0,17,39,true
 663,Talonflame,"forest, sky, taiga",,,any,clear,grounded,natural,,rare,5.0,35,51,true
@@ -456,18 +456,18 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 685,Slurpuff,magical,,,any,any,grounded,natural,,uncommon,0.05,25,50,true
 686,Inkay,coast,beach,,any,any,grounded,underwater,,uncommon,9.0,5,35,true
 687,Malamar,coast,beach,,any,any,grounded,underwater,,rare,2.0,30,50,true
-688,Binacle,ocean,,,any,any,seafloor,underwater,,common,5.0,5,43,any
-689,Barbaracle,ocean,,,any,any,seafloor,underwater,,rare,1.0,39,60,any
+688,Binacle,ocean,,,any,any,seafloor,underwater,,common,5.0,5,43,ANY
+689,Barbaracle,ocean,,,any,any,seafloor,underwater,,rare,1.0,39,60,ANY
 690,Skrelp,lukewarm,,,any,any,submerged,underwater,,uncommon,9.0,5,50,true
 691,Dragalge,lukewarm,,,any,any,submerged,underwater,,rare,3.0,48,65,true
 692,Clauncher,coast,,,any,any,seafloor,underwater,,common,9.0,5,41,true
 693,Clawitzer,coast,,,any,any,submerged,underwater,,common,1.0,37,60,true
 694,Helioptile,sandy,,,any,any,grounded,natural,,common,9.0,5,30,true
 695,Heliolisk,sandy,,,any,any,grounded,natural,,common,0.05,25,50,true
-696,Tyrunt,lush,,,any,any,grounded,natural,,rare,9.0,10,45,any
-697,Tyrantrum,lush,,,any,any,grounded,natural,,ultra-rare,1.0,39,60,any
-698,Amaura,lush,,,any,any,grounded,natural,,rare,9.0,10,45,any
-699,Aurorus,lush,,,any,any,grounded,natural,,ultra-rare,1.0,39,60,any
+696,Tyrunt,lush,,,any,any,grounded,natural,,rare,9.0,10,45,ANY
+697,Tyrantrum,lush,,,any,any,grounded,natural,,ultra-rare,1.0,39,60,ANY
+698,Amaura,lush,,,any,any,grounded,natural,,rare,9.0,10,45,ANY
+699,Aurorus,lush,,,any,any,grounded,natural,,ultra-rare,1.0,39,60,ANY
 701,Hawlucha,mountain,,,any,any,grounded,natural,,rare,5.0,20,60,true
 702,Dedenne,plains,,,any,any,grounded,natural,,uncommon,7.0,5,45,true
 703,Carbink,overworld,abyss,,any,any,grounded,natural,"neededNearbyBlocks = diamond_ore, amethyst_block",ultra-rare,4.0,20,40,false
@@ -520,25 +520,25 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 764,Comfey,floral,,,any,any,grounded,natural,,uncommon,1.0,10,22,true
 765,Oranguru,jungle,,,any,any,grounded,treetop,,uncommon,2.0,15,35,true
 766,Passimian,jungle,,,any,any,grounded,treetop,,uncommon,2.0,15,35,true
-767,Wimpod,beach,,,any,any,grounded,,,rare,9,15,29,any
-768,Golisopod,beach,,,any,any,grounded,,,rare,0.1,30,55,any
+767,Wimpod,beach,,,any,any,grounded,,,rare,9,15,29,ANY
+768,Golisopod,beach,,,any,any,grounded,,,rare,0.1,30,55,ANY
 769,Sandygast,beach,,,any,any,grounded,,,uncommon,3.0,22,40,true
 770,Palossand,beach,,,any,any,grounded,,,rare,1.0,42,55,true
 771,Pyukumuku,"beach, ocean, reef",reef,,any,any,grounded,natural,,uncommon,6.0,15,41,true
 772,Type: Null,overworld,,,any,any,grounded,derelict,,rare,3.0,12,30,true
 773,Silvally,overworld,,,any,any,grounded,derelict,,rare,0.5,32,50,true
 775,Komala,savanna,,,any,any,grounded,natural,,uncommon,1.0,15,30,true
-776,Turtonator,"basalt_deltas, thermal, volcanic",,,any,any,grounded,natural,,uncommon,2.0,18,32,any
+776,Turtonator,"basalt_deltas, thermal, volcanic",,,any,any,grounded,natural,,uncommon,2.0,18,32,ANY
 777,Togedemaru,mountain,,,any,any,grounded,natural,,uncommon,2.0,15,27,true
-778,Mimikyu,"spooky, spooky, spooky, spooky",,,any,any,grounded,natural,,rare,4.0,12,48,any
+778,Mimikyu,"spooky, spooky, spooky, spooky",,,any,any,grounded,natural,,rare,4.0,12,48,ANY
 778,Mimikyu,overworld,,,night,any,grounded,,"neededNearbyBlocks = yellow_carpet, yellow_banner, yellow_bed",uncommon,50,15,30,false
-778,Mimikyu,minecraftoverworld,,,night,any,grounded,urban,,rare,5.0,20,35,any
+778,Mimikyu,minecraftoverworld,,,night,any,grounded,urban,,rare,5.0,20,35,ANY
 779,Bruxish,ocean,,,any,any,submerged,underwater,,uncommon,1.0,14,30,true
 780,Drampa,peak,,,any,any,grounded,natural,,rare,1.0,25,42,true
 780,Drampa,sky,,,any,any,grounded,natural,,rare,1.0,25,42,true
-782,Jangmo-O,jungle,,,any,any,grounded,natural,,rare,3.0,15,32,any
-783,Hakamo-O,jungle,,,any,any,grounded,natural,,rare,0.8,35,42,any
-784,Kommo-O,jungle,,,any,any,grounded,natural,,rare,0.2,45,55,any
+782,Jangmo-O,jungle,,,any,any,grounded,natural,,rare,3.0,15,32,ANY
+783,Hakamo-O,jungle,,,any,any,grounded,natural,,rare,0.8,35,42,ANY
+784,Kommo-O,jungle,,,any,any,grounded,natural,,rare,0.2,45,55,ANY
 810,Grookey,forest,"snowy, taiga","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,clear,grounded,,"minX = 0, neededNearbyBlocks = flowering_azalea, neededBaseBlocks = moss_block",common,500.0,5,15,true
 811,Thwackey,forest,"snowy, taiga","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,clear,grounded,,"minX = 0, neededNearbyBlocks = flowering_azalea, neededBaseBlocks = moss_block",uncommon,250.0,20,25,true
 812,Rillaboom,forest,"snowy, taiga","fire, soul_fire, lava, jack_o_lantern, campfire, soul_campfire, torch, wall_torch, soul_torch, wall_soul_torch, redstone_torch, redstone_wall_torch",day,clear,grounded,,"minX = 0, neededNearbyBlocks = flowering_azalea, neededBaseBlocks = moss_block",uncommon,250.0,35,45,true
@@ -553,45 +553,45 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 821,Rookidee,"forest, hills, mountain",,,any,any,grounded,,,common,9,7,17,true
 822,Corvisquire,"forest, hills, mountain",,,any,any,grounded,,,common,0.9,18,35,true
 823,Corviknight,"forest, hills, mountain",,,any,any,grounded,,,common,0.1,38,55,true
-824,Blipbug,"forest, lush",spooky,,day,any,grounded,natural,,common,4,2,9,any
-825,Dottler,"forest, lush",spooky,,day,any,grounded,natural,,uncommon,2,10,25,any
-826,Orbeetle,"forest, lush",spooky,,day,any,grounded,natural,,uncommon,0.2,26,50,any
-826,Orbeetle,end,,,any,any,grounded,natural,,uncommon,1,40,60,any
+824,Blipbug,"forest, lush",spooky,,day,any,grounded,natural,,common,4,2,9,ANY
+825,Dottler,"forest, lush",spooky,,day,any,grounded,natural,,uncommon,2,10,25,ANY
+826,Orbeetle,"forest, lush",spooky,,day,any,grounded,natural,,uncommon,0.2,26,50,ANY
+826,Orbeetle,end,,,any,any,grounded,natural,,uncommon,1,40,60,ANY
 827,Nickit,overworld,,,any,any,grounded,natural,"neededNearbyBlocks = sweet_berry_bush, campfire, chest",rare,2.0,5,17,true
 828,Thievul,forest,,,any,any,grounded,natural,"neededNearbyBlocks = sweet_berry_bush, campfire, chest",rare,0.2,18,35,true
 829,Gossifleur,"floral, magical, plains",,,any,any,grounded,natural,,uncommon,3,5,19,true
 830,Eldegoss,"floral, magical, plains",,,any,any,grounded,natural,,rare,1,20,42,true
-833,Chewtle,"freshwater, beach",,,any,any,grounded,"natural, freshwater",,uncommon,6,7,20,any
-834,Drednaw,"freshwater, beach",,,any,any,grounded,"natural, freshwater",,uncommon,1,22,40,any
+833,Chewtle,"freshwater, beach",,,any,any,grounded,"natural, freshwater",,uncommon,6,7,20,ANY
+834,Drednaw,"freshwater, beach",,,any,any,grounded,"natural, freshwater",,uncommon,1,22,40,ANY
 835,Yamper,savanna,,,dawn,any,grounded,,,common,3,7,20,true
 836,Boltund,savanna,,,dawn,any,grounded,,,uncommon,2,25,40,true
-837,Rolycoly,cave,,,any,any,grounded,natural,,uncommon,3.0,7,16,any
-837,Rolycoly,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",common,5.0,7,16,any
-837,Rolycoly,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",common,7.0,7,16,any
-838,Carkol,cave,,,any,any,grounded,natural,,rare,2.0,18,32,any
-838,Carkol,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,3.0,8,32,any
-838,Carkol,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,4.0,8,32,any
-839,Coalossal,cave,,,any,any,grounded,natural,,rare,0.5,34,50,any
-839,Coalossal,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",rare,4.0,34,50,any
-839,Coalossal,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,1.0,34,50,any
+837,Rolycoly,cave,,,any,any,grounded,natural,,uncommon,3.0,7,16,ANY
+837,Rolycoly,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",common,5.0,7,16,ANY
+837,Rolycoly,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",common,7.0,7,16,ANY
+838,Carkol,cave,,,any,any,grounded,natural,,rare,2.0,18,32,ANY
+838,Carkol,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,3.0,8,32,ANY
+838,Carkol,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,4.0,8,32,ANY
+839,Coalossal,cave,,,any,any,grounded,natural,,rare,0.5,34,50,ANY
+839,Coalossal,"mountain, hills",,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",rare,4.0,34,50,ANY
+839,Coalossal,volcanic,,,any,any,grounded,natural,"neededNearbyBlocks = coal_ore, deepslate_coal_ore",uncommon,1.0,34,50,ANY
 840,Applin,forest,,,day,any,grounded,"natural, foliage","neededNearbyBlocks = oak_log, oak_leaves",rare,2.0,10,25,true
 841,Flapple,forest,,,day,any,grounded,"natural, treetop","neededNearbyBlocks = oak_log, oak_leaves",rare,0.2,30,50,true
 842,Appletun,forest,,,day,any,grounded,natural,"neededNearbyBlocks = oak_log, oak_leaves",rare,0.2,30,50,true
-843,Silicobra,desert,,,any,any,grounded,,"neededNearbyBlocks = sand, red_sand",uncommon,4,15,35,any
-844,Sandaconda,desert,,,any,any,grounded,,"neededNearbyBlocks = sand, red_sand",rare,1,36,50,any
+843,Silicobra,desert,,,any,any,grounded,,"neededNearbyBlocks = sand, red_sand",uncommon,4,15,35,ANY
+844,Sandaconda,desert,,,any,any,grounded,,"neededNearbyBlocks = sand, red_sand",rare,1,36,50,ANY
 845,Cramorant,"freshwater, beach",#terralith:ice_marsh,,any,any,grounded,"natural, freshwater",,rare,3.0,15,35,true
 846,Arrokuda,freshwater,,,any,any,submerged,"underwater, freshwater",,uncommon,2.0,10,25,true
 847,Barraskewda,freshwater,,,any,any,submerged,"underwater, freshwater",,rare,1.0,26,40,true
 848,Toxel,swamp,,,any,any,grounded,natural,,uncommon,3.0,5,25,true
 849,Toxtricity,"swamp, swamp",,,any,any,grounded,natural,,rare,1.0,30,45,true
 850,Sizzlipede,"badlands, basalt_deltas",,,any,any,grounded,natural,,common,5.4,10,30,true
-850,Sizzlipede,nether_wastes,,,any,any,grounded,natural,,common,5.4,10,30,any
+850,Sizzlipede,nether_wastes,,,any,any,grounded,natural,,common,5.4,10,30,ANY
 851,Centiskorch,"badlands, basalt_deltas",,,any,any,grounded,natural,,common,0.6,28,52,true
-851,Centiskorch,nether_wastes,,,any,any,grounded,natural,,common,0.6,28,52,any
+851,Centiskorch,nether_wastes,,,any,any,grounded,natural,,common,0.6,28,52,ANY
 852,Clobbopus,"beach, ocean",,,any,any,grounded,natural,,uncommon,1.0,10,30,true
 853,Grapploct,"beach, ocean",,,any,any,grounded,natural,,rare,0.5,35,50,true
-854,Sinistea,forest,,,any,any,grounded,,,rare,1.0,10,30,any
-855,Polteageist,forest,,,any,any,grounded,,,rare,0.1,30,45,any
+854,Sinistea,forest,,,any,any,grounded,,,rare,1.0,10,30,ANY
+855,Polteageist,forest,,,any,any,grounded,,,rare,0.1,30,45,ANY
 856,Hatenna,magical,,,any,any,grounded,natural,,rare,2.0,10,30,true
 857,Hattrem,magical,,,any,any,grounded,natural,,rare,0.2,32,40,true
 858,Hatterene,magical,,,any,any,grounded,natural,,ultra-rare,0.5,42,55,true
@@ -615,7 +615,7 @@ No.,Pokemon,Biome,Excluded,Excluded Blocks,Time,Weather,Context,Preset,Requireme
 877,Morpeko,hills,,,any,any,grounded,natural,,uncommon,6.0,5,20,true
 878,Cufant,savanna,,,any,any,grounded,natural,,uncommon,2.0,15,32,true
 879,Copperajah,savanna,,,any,any,grounded,natural,,rare,0.5,35,50,true
-884,Duraludon,mountain,,,any,any,grounded,natural,,ultra-rare,1.0,55,75,any
+884,Duraludon,mountain,,,any,any,grounded,natural,,ultra-rare,1.0,55,75,ANY
 885,Dreepy,"spooky, savanna",,,night,any,grounded,,,rare,5.4,12,30,true
 886,Drakloak,"spooky, savanna",,,night,any,grounded,,,rare,0.54,24,47,true
 887,Dragapult,"spooky, savanna",,,night,any,grounded,,,rare,0.06,48,60,true

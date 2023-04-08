@@ -36,7 +36,7 @@ class CobblemonData:
       "dimensions": None,  # [List] of dimension IDs.
       "biomes": None,      # [List] of biome tags.
       "moonPhase": None,   # [Int] Can be 0-7.
-      "canSeeSky": "any",  # [str/bool] Whether sky needs to be above it. 
+      "canSeeSky": "ANY",  # [str/bool] Whether sky needs to be above it. 
       
       "minX": None,
       "minY": None,
