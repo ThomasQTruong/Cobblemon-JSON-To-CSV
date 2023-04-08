@@ -101,6 +101,12 @@ def cleanJsonValue(jsonVal: Union[str, float, list, bool, int]) -> Union[str, No
     clean = clean[1:-1]
   # Get rid of "s.
   clean = clean.replace('"', '')
+
+  # Clean up the biomes/block values. 
+  clean = clean.replace("#minecraft", "")
+  clean = clean.replace("#cobblemon", "")
+  clean = clean.replace(":is_", "")
+  clean = clean.replace("minecraft:", "")
   
   return clean
 
