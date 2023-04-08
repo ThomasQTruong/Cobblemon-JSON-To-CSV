@@ -67,7 +67,8 @@ class CobblemonData:
 
     # Anti-conditions
     self.anticonditions = {
-      "biomes": None  # [List] of excluded biome tags.
+      "biomes": None,             # [List] of excluded biome tags.
+      "neededNearbyBlocks": None  # [List] of blocks that cannot be nearby.
     }
 
 

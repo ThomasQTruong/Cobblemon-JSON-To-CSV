@@ -17,6 +17,7 @@ HEADERS = {
   "Pokemon": "spawns/pokemon",
   "Biome": "conditions/biomes",
   "Excluded": "anticonditions/biomes",
+  "Excluded Blocks": "anticonditions/neededNearbyBlocks",
   "Time": "conditions/timeRange",
   "Weather": "getWeather",
   "Context": "spawns/context",
