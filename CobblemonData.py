@@ -165,7 +165,19 @@ class CobblemonData:
     # Set up moon phase if exist.
     phase = self.conditions["moonPhase"]
     if (phase != None):
-      spawnRequirements += f"moonPhase = {moonPhases[int(phase)]}"
+      spawnRequirements += f"moonPhase = "
+      # One phase given.
+      if (len(phase) == 1):
+        spawnRequirements += f"{moonPhases[int(phase) - 1]}"
+      # Multiple phases given.
+      else:
+        phases = phase.replace(" ", "").split(",")
+        # Get all of the phase names.
+        phaseNames = []
+        for p in phases:
+          phaseNames.append(moonPhases[int(p) - 1])
+        spawnRequirements += f"{', '.join(phaseNames)}"
+        
 
     # For every requirement in possible_reqs.
     for req in possible_reqs:
