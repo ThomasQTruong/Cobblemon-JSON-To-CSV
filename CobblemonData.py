@@ -241,8 +241,7 @@ class CobblemonData:
     if self.spawns["weightMultiplier"] is not None:
       unclean_data = self.spawns["weightMultiplier"]
       # Clean up data.
-      clean_data = unclean_data.replace("{", "")
-      clean_data = clean_data.replace("}", "")
+      clean_data = unclean_data.replace("{", "").replace("}", "")
       clean_data = clean_data.replace("multiplier:", "")
       clean_data = clean_data.replace("condition:", "")
       clean_data = clean_data.strip()
@@ -252,7 +251,7 @@ class CobblemonData:
       # Format the data (multiplier IF [conditions])
       formatted_data = f"x{splitted_data[0]} IF [{splitted_data[1].strip()}"
       for item in splitted_data[2:]:
-        formatted_data = formatted_data + ", " + item.strip()
+        formatted_data += ", " + item.strip()
       formatted_data = formatted_data + "]"
 
       return formatted_data
