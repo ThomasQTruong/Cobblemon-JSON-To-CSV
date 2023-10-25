@@ -13,6 +13,8 @@ from typing import Union
 
 # Directory to read data files from.
 DATA_DIR = "./CobblemonData/"
+# Name of the outputted spreadsheet.
+CSV_NAME = "CobblemonData.csv"
 
 # Contains all the headers and where to get the values.
 HEADERS = {
@@ -39,7 +41,7 @@ HEADERS = {
 
 def main():
   # Create CSV in write mode.
-  with open("CobblemonData.csv", mode = "w", encoding = "utf-8") as csv_file:
+  with open(CSV_NAME, mode = "w", encoding = "utf-8") as csv_file:
     csv_writer = csv.writer(csv_file, quotechar='"', quoting=csv.QUOTE_MINIMAL)
     # Create headers.
     csv_writer.writerow(HEADERS.keys())
@@ -78,6 +80,8 @@ def main():
 
         # Write all the information into the row.
         csv_writer.writerow(getheader_values(temp_data))
+
+      print(f"Done generating {CSV_NAME}.")
 
       # Close file.
       p_file.close()
@@ -143,18 +147,12 @@ def getheader_values(poke_data: CobblemonData) -> list:
       header_values.append(getattr(poke_data, value_location[0])())
     # Dictionary has value.
     else:
-      try:
-        data_gotten = getattr(poke_data, value_location[0])[value_location[1]]
-        header_values.append(data_gotten)
-      except KeyError:
-        header_values.append("meow")
-        # print(e)
+      header_values.append(getattr(poke_data, value_location[0])[value_location[1]])
 
   # Capitalize all the Pokemon names.
   header_values[1] = header_values[1].title()
 
   return header_values
-
 
 
 if __name__ == "__main__":
