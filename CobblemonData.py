@@ -16,7 +16,7 @@ class CobblemonData:
     conditions: the conditions that ALLOW spawning.
     anticonditions: the conditions that PREVENT spawning.
   """
-  
+
   def __init__(self):
     """Initializes the instance with default values."""
     self.index = None
@@ -28,16 +28,18 @@ class CobblemonData:
       "context": None,
       "bucket": None,
       "level": None,
-      "weight": None
+      "weight": None,
+      "weightMultiplier": None
     }
-    
+
     # Spawn conditions.
     self.conditions = {
       "dimensions": None,  # [List] of dimension IDs.
       "biomes": None,      # [List] of biome tags.
+      "structures": None,  # [List] of structures.
       "moonPhase": None,   # [Int] Can be 0-7.
       "canSeeSky": "ANY",  # [str/bool] Whether sky needs to be above it. 
-      
+
       "minX": None,
       "minY": None,
       "minZ": None,
@@ -47,7 +49,7 @@ class CobblemonData:
 
       "minLight": None,
       "maxLight": None,
-      
+
       "timeRange": "any",  # "any", "day", "night", "morning" or "0-1200,2000-3000" or "day-1200,1600-morning"
       "isRaining": None,
       "isThundering": None,
@@ -68,13 +70,14 @@ class CobblemonData:
     # Anti-conditions
     self.anticonditions = {
       "biomes": None,             # [List] of excluded biome tags.
+      "structures": None,         # [List] of excluded structures.
       "neededNearbyBlocks": None  # [List] of blocks that cannot be nearby.
     }
 
 
 
   # Change dictionary values.
-  def setSpawn(self, key: str, value: str):
+  def set_spawn(self, key: str, value: str):
     """Sets a key in the spawns dictionary.
     
     Sets a value to spawns[key].
@@ -88,7 +91,7 @@ class CobblemonData:
     self.spawns[key] = value
 
 
-  def setCondition(self, key: str, value: str):
+  def set_condition(self, key: str, value: str):
     """Sets a key in the conditions dictionary.
     
     Sets a value to conditions[key].
@@ -100,9 +103,9 @@ class CobblemonData:
         The value to change to.
     """
     self.conditions[key] = value
-  
 
-  def setAnticondition(self, key: str, value: str):
+
+  def set_anti_condition(self, key: str, value: str):
     """Sets a key in the anticonditions dictionary.
     
     Sets a value to anticonditions[key].
@@ -118,12 +121,12 @@ class CobblemonData:
 
 
   # Value converters/getters: returns proper values for certain headers.
-  def getIndex(self) -> str:
+  def get_index(self) -> str:
     """Returns the Pokemon's number in the pokedex."""
     return self.index
 
 
-  def getWeather(self) -> str:
+  def get_weather(self) -> str:
     """Gets the whether based on isRaining and isThundering conditions.
     
     Checks isRaining and isThundering to determine if the weather
@@ -133,19 +136,19 @@ class CobblemonData:
       The weather (storm, rain, or clear).
     """
     # Is thundering.
-    if (self.conditions["isThundering"] == "true"):
+    if self.conditions["isThundering"] == "true":
       return "storm"
     # Is raining.
-    elif (self.conditions["isRaining"] == "true"):
+    elif self.conditions["isRaining"] == "true":
       return "rain"
     # Is not raining.
-    elif (self.conditions["isRaining"] == "false"):
+    elif self.conditions["isRaining"] == "false":
       return "clear"
     # No conditions listed, any is assumed.
     return "any"
 
 
-  def getRequirements(self) -> str:
+  def get_requirements(self) -> str:
     """Returns a string of the spawn requirements.
 
     Creates a string that contains all of the requirements needed
@@ -155,46 +158,48 @@ class CobblemonData:
       The string with all the spawn requirements.
     """
     possible_reqs = ["minX", "minY", "minZ", "maxX", "maxY", "maxZ",
-                     "minLight", "maxLight", "minWidth", "maxWidth", "minHeight",
-                     "maxHeight", "minDepth", "maxDepth", "fluidIsSource", "fluidBlock",
-                     "neededNearbyBlocks", "neededBaseBlocks"]
-    moonPhases = ["Full Moon", "Waning Gibbous", "Last Quarter", "Waning Crescent",
-                  "New Moon", "Waxing Crescent", "First Quarter", "Waxing Gibbous"]
-    spawnRequirements = ""
+                     "minLight", "maxLight", "minWidth", "maxWidth",
+                     "minHeight", "maxHeight", "minDepth", "maxDepth",
+                     "fluidIsSource", "fluidBlock", "neededNearbyBlocks",
+                     "neededBaseBlocks"]
+    moon_phases = ["Full Moon", "Waning Gibbous", "Last Quarter",
+                   "Waning Crescent", "New Moon", "Waxing Crescent",
+                   "First Quarter", "Waxing Gibbous"]
+    spawn_requirements = ""
 
     # Set up moon phase if exist.
     phase = self.conditions["moonPhase"]
-    if (phase != None):
-      spawnRequirements += f"moonPhase = "
+    if phase is not None:
+      spawn_requirements += "moonPhase = "
       # One phase given.
-      if (len(phase) == 1):
-        spawnRequirements += f"{moonPhases[int(phase) - 1]}"
+      if len(phase) == 1:
+        spawn_requirements += f"{moon_phases[int(phase) - 1]}"
       # Multiple phases given.
       else:
         phases = phase.replace(" ", "").split(",")
         # Get all of the phase names.
-        phaseNames = []
+        phase_names = []
         for p in phases:
-          phaseNames.append(moonPhases[int(p) - 1])
-        spawnRequirements += f"{', '.join(phaseNames)}"
-        
+          phase_names.append(moon_phases[int(p) - 1])
+        spawn_requirements += f"{', '.join(phase_names)}"
+
 
     # For every requirement in possible_reqs.
     for req in possible_reqs:
-      reqVal = self.conditions[req]
+      requirement_value = self.conditions[req]
       # Requirement exists.
-      if (reqVal != None):
+      if requirement_value is not None:
         # Already a requirement, append WITH a comma.
-        if (spawnRequirements != ""):
-          spawnRequirements += f", {req} = {reqVal}"
+        if spawn_requirements != "":
+          spawn_requirements += f", {req} = {requirement_value}"
         # No requirement, append.
         else:
-          spawnRequirements += f"{req} = {reqVal}"
+          spawn_requirements += f"{req} = {requirement_value}"
 
-    return spawnRequirements
+    return spawn_requirements
 
 
-  def getMinLevel(self) -> str:
+  def get_min_level(self) -> str:
     """Returns the minimum level the Pokemon spawns as.
 
     Gets the minimum level the pokemon spawns as from
@@ -204,9 +209,9 @@ class CobblemonData:
       The min level as string.
     """
     return self.spawns["level"].split("-")[0]
-  
 
-  def getMaxLevel(self) -> str:
+
+  def get_max_level(self) -> str:
     """Returns the maximum level the Pokemon spawns as.
 
     Gets the maximum level the pokemon spawns as from
@@ -217,8 +222,37 @@ class CobblemonData:
     """
     levels = self.spawns["level"].split("-")
     # No max explicitly given, i.e. "50" instead of "45-50".
-    if (len(levels) == 1):
+    if len(levels) == 1:
       # Return min since its also max.
       return levels[0]
-    # Else, return max level.  
+    # Else, return max level.
     return levels[1]
+
+
+  def get_weight_multiplier(self) -> str:
+    """Returns the weight multiplier with the condition.
+
+    Format will be: multiplier IF [condition(s)].
+
+    Returns:
+      The "multiplier IF [condition(s)]" as a string.
+    """
+    # If the weightMultiplier exists.
+    if self.spawns["weightMultiplier"] is not None:
+      unclean_data = self.spawns["weightMultiplier"]
+      # Clean up data.
+      clean_data = unclean_data.replace("{", "")
+      clean_data = clean_data.replace("}", "")
+      clean_data = clean_data.replace("multiplier:", "")
+      clean_data = clean_data.replace("condition:", "")
+      clean_data = clean_data.strip()
+      clean_data = clean_data.replace(":", " =")
+      splitted_data = clean_data.split(",")
+
+      # Format the data (multiplier IF [conditions])
+      formatted_data = f"x{splitted_data[0]} IF [{splitted_data[1].strip()}"
+      for item in splitted_data[2:]:
+        formatted_data = formatted_data + ", " + item.strip()
+      formatted_data = formatted_data + "]"
+
+      return formatted_data

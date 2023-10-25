@@ -5,7 +5,10 @@
  * Copyright (c) 2023, Thomas Truong
 """
 
-import os, csv, json, CobblemonData
+import os
+import csv
+import json
+import CobblemonData
 from typing import Union
 
 # Directory to read data files from.
@@ -13,77 +16,81 @@ DATA_DIR = "./CobblemonData/"
 
 # Contains all the headers and where to get the values.
 HEADERS = {
-  "No.": "getIndex",
+  "No.": "get_index",
   "Pokemon": "spawns/pokemon",
   "Biome": "conditions/biomes",
-  "Excluded": "anticonditions/biomes",
+  "Excluded Biomes": "anticonditions/biomes",
   "Excluded Blocks": "anticonditions/neededNearbyBlocks",
+  "Structures": "conditions/structures",
+  "Excluded Structs": "anticonditions/structures", 
   "Time": "conditions/timeRange",
-  "Weather": "getWeather",
+  "Weather": "get_weather",
   "Context": "spawns/context",
   "Preset": "spawns/presets",
-  "Requirements": "getRequirements",
+  "Requirements": "get_requirements",
   "Bucket": "spawns/bucket",
   "Weight": "spawns/weight",
-  "Lv. Min": "getMinLevel",
-  "Lv. Max": "getMaxLevel",
+  "Weight Multiplier": "get_weight_multiplier",
+  "Lv. Min": "get_min_level",
+  "Lv. Max": "get_max_level",
   "canseeSky": "conditions/canSeeSky" 
 }
 
 
 def main():
   # Create CSV in write mode.
-  with open("CobblemonData.csv", "w") as csvFile:
-    csvWriter = csv.writer(csvFile, quotechar='"', quoting=csv.QUOTE_MINIMAL)
+  with open("CobblemonData.csv", mode = "w", encoding = "utf-8") as csv_file:
+    csv_writer = csv.writer(csv_file, quotechar='"', quoting=csv.QUOTE_MINIMAL)
     # Create headers.
-    csvWriter.writerow(HEADERS.keys())
+    csv_writer.writerow(HEADERS.keys())
 
     # Gets and sorts directory.
-    sortedDirectory = sorted(os.listdir(DATA_DIR))
+    sorted_directory = sorted(os.listdir(DATA_DIR))
 
-    # For every fileName in directory.
-    for fileName in sortedDirectory:
+    # For every file_name in directory.
+    for file_name in sorted_directory:
       # Obtain Pokemon Index.
-      pIndex = str(int(fileName.split("_")[0]))
-      pFile = open(DATA_DIR + fileName, "r")
+      p_index = str(int(file_name.split("_")[0]))
+      p_file = open(DATA_DIR + file_name, mode = "r", encoding = "utf-8")
       # Obtain json data.
-      pData = json.load(pFile)
+      p_data = json.load(p_file)
 
-      for spawn in pData["spawns"]:
+      for spawn in p_data["spawns"]:
         # Create a temporary pokemon object that stores data.
-        tempData = CobblemonData.CobblemonData()
-        tempData.index = pIndex
+        temp_data = CobblemonData.CobblemonData()
+        temp_data.index = p_index
 
         # Extract all general information if possible.
-        for key in tempData.spawns.keys():
-          if (key in spawn):
-            tempData.setSpawn(key, cleanJsonValue(spawn[key]))
+        for key in temp_data.spawns.keys():
+          if key in spawn:
+            temp_data.set_spawn(key, clean_json_value(spawn[key]))
 
         # Extract all spawn conditions if possible.
-        for key in tempData.conditions.keys():
-          if (key in spawn["condition"]):
-            tempData.setCondition(key, cleanJsonValue(spawn["condition"][key]))
+        for key in temp_data.conditions.keys():
+          if key in spawn["condition"]:
+            temp_data.set_condition(key, clean_json_value(spawn["condition"][key]))
 
         # Extract all anti-conditions if possible.
-        for key in tempData.anticonditions.keys():
-          if ("anticondition" in spawn):
-            if (key in spawn["anticondition"]):
-              tempData.setAnticondition(key, cleanJsonValue(spawn["anticondition"][key]))
-        
+        for key in temp_data.anticonditions.keys():
+          if "anticondition" in spawn:
+            if key in spawn["anticondition"]:
+              temp_data.set_anti_condition(key, clean_json_value(spawn["anticondition"][key]))
+
         # Write all the information into the row.
-        csvWriter.writerow(getHeaderValues(tempData))
-        
+        csv_writer.writerow(getheader_values(temp_data))
+
       # Close file.
-      pFile.close()
+      p_file.close()
 
 
-def cleanJsonValue(jsonVal: Union[str, float, list, bool, int]) -> Union[str, None]:
+def clean_json_value(json_value: Union[str, float, list,
+                                       bool, int]) -> Union[str, None]:
   """Returns cleaned version of JSON value.
 
   Removes brackets from JSON, extra quotations, and turns it into a string.
 
   Args:
-    jsonVal:
+    json_value:
       The JSON value to clean up.
   
   Returns:
@@ -91,55 +98,62 @@ def cleanJsonValue(jsonVal: Union[str, float, list, bool, int]) -> Union[str, No
   """
 
   # Nothing given.
-  if (len(str(jsonVal)) == 0):
+  if len(str(json_value)) == 0:
     return
 
   # Convert to JSON string.
-  clean = json.dumps(jsonVal)
+  clean = json.dumps(json_value)
   # Is a list (has open bracket), remove brackets.
   if (len(clean) >= 2 and clean[0] == "["):
     clean = clean[1:-1]
   # Get rid of "s.
-  clean = clean.replace('"', '')
+  clean = clean.replace("\"", "")
 
-  # Clean up the biomes/block values. 
+  # Clean up the biomes/block/structure values.
   clean = clean.replace("#minecraft", "")
   clean = clean.replace("#cobblemon", "")
   clean = clean.replace(":is_", "")
   clean = clean.replace("minecraft:", "")
-  
+  if len(clean) > 0 and clean[0] == ":":
+    clean = clean[1:]
+
   return clean
 
 
-def getHeaderValues(pokeData: CobblemonData) -> list:
+def getheader_values(poke_data: CobblemonData) -> list:
   """Returns the values of each header.
   
   Retrieves the value of each header and puts it into a list to return.
 
   Args:
-    pokeData:
+    poke_data:
       The object that contains a Pokemon's data.
 
   Returns:
     The list of values of each header.
   """
-  headerValues = []
+  header_values = []
 
-  # For every header.
-  for header in HEADERS:
-    valueLocation = HEADERS[header].split("/")
+  # For every key-value pair in HEADERS.
+  for kv_pair in HEADERS.items():
+    # Extract the header location from kv_pair.
+    value_location = kv_pair[1].split("/")
     # Getter function has value.
-    if (len(valueLocation) == 1):
-      headerValues.append(getattr(pokeData, valueLocation[0])())
+    if len(value_location) == 1:
+      header_values.append(getattr(poke_data, value_location[0])())
     # Dictionary has value.
     else:
-      headerValues.append(getattr(pokeData,
-                                  valueLocation[0])[valueLocation[1]])
-      
-  # Capitalize all the Pokemon names.
-  headerValues[1] = headerValues[1].title()
+      try:
+        data_gotten = getattr(poke_data, value_location[0])[value_location[1]]
+        header_values.append(data_gotten)
+      except KeyError:
+        header_values.append("meow")
+        # print(e)
 
-  return headerValues
+  # Capitalize all the Pokemon names.
+  header_values[1] = header_values[1].title()
+
+  return header_values
 
 
 
